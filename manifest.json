@@ -1,6 +1,6 @@
 {
   "format": "research-workbench-student",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "files": [
     {
       "name": "ai-adoption.mjs",
@@ -19,13 +19,13 @@
     },
     {
       "name": "connector-package.mjs",
-      "size": 3870,
-      "sha256": "05058e70dfde2905ad9f5a0082afe65dbbbc180d8f624c86aeb12ba56ee4cd8b"
+      "size": 4086,
+      "sha256": "872e2a9294e9cb327692540324b766ce16f0a50c353aa5cc20a7370d3f4d003b"
     },
     {
       "name": "connector-server.mjs",
       "size": 8019,
-      "sha256": "8c5bc14ce3559c2fef84e864a2a268d787a940f60cfe18974e3e95e7b61c4cf7"
+      "sha256": "b86ddb9504f67260f29ece4e8728d63f9e6b175a40ce7f430fa53fe8a27c9b34"
     },
     {
       "name": "core.mjs",
@@ -69,8 +69,8 @@
     },
     {
       "name": "server.mjs",
-      "size": 35820,
-      "sha256": "957029df83f7966f8b158168041d3113fb0c5692203ba79577abd90ce1608a2a"
+      "size": 35821,
+      "sha256": "21c8d8f6136301a3cf8afa3b85cf975c11139680ecd8bd5dbdc6981b749594a0"
     },
     {
       "name": "subscription-ai.mjs",
@@ -148,9 +148,29 @@
       "sha256": "d1e145da1a51b7cc4ef5eb6b617eaa14a4942465544356c3ef2a112926d4cea1"
     },
     {
+      "name": "scripts/Dependency-Setup.psm1",
+      "size": 25129,
+      "sha256": "fd9fc5e30257f01b445f9211beb34b75ac12f998de4a9b474baed7243036aaf6"
+    },
+    {
+      "name": "dependency-lock.json",
+      "size": 2310,
+      "sha256": "71e88d4fdd37fa05d5b25f15134f4401a0d6f68425f31d55ecf2020c6d5ed3bf"
+    },
+    {
+      "name": "Setup.ps1",
+      "size": 899,
+      "sha256": "5f3ec3f868ed171830847fe5b988f3c69d925ed6e345844ffb4829c628833fdd"
+    },
+    {
+      "name": "Setup.cmd",
+      "size": 177,
+      "sha256": "438a51e24302c052d20e5f6d23ae13baaa8ddcfc6825d4fdc92796dad6ce49bd"
+    },
+    {
       "name": "Launch.ps1",
-      "size": 1984,
-      "sha256": "39ea646ce9a10080cf0c22494fe7ee5950459db3c2eb8daef2378b6b290f37f3"
+      "size": 2537,
+      "sha256": "74ac947779fcfebff30f8ce920629856fe61684e9fdaf5217df71941610aead8"
     },
     {
       "name": "Stop.ps1",
@@ -163,19 +183,34 @@
       "sha256": "fd9f1c2edb08d43f20d3f31bbd418db60970a1d23fdb8db2ccbc1874df494596"
     },
     {
+      "name": "시작.cmd",
+      "size": 32,
+      "sha256": "2bb12f0fcc961f0439d49e5fa7ca43053fde86ad505011371372d594f53e71fa"
+    },
+    {
       "name": "Stop.cmd",
       "size": 104,
       "sha256": "406a9522267b2b0e3c473939c9c47fffc243ab5975a666ef5edc77eb18c9c814"
     },
     {
       "name": "Start-Connector.ps1",
-      "size": 2470,
-      "sha256": "1bf5983a4bb2ba23eff9c77a3038ad4263a0228ef10b9724b85983110bf5fa65"
+      "size": 3010,
+      "sha256": "d171ec4ba5a7c378df3825f5b321c08a5bc8c6aa37270fe032e104d84d796058"
     },
     {
       "name": "Start-Connector.cmd",
       "size": 123,
       "sha256": "3ef43b7a7ae5df838c4e4e2bb97f7a8a028d7cf8522c895e5efcdd57ba81742b"
+    },
+    {
+      "name": "Stop-Connector.ps1",
+      "size": 787,
+      "sha256": "86b112b5bcd0088b47ae91f05a261fa37e4d39d743ce92c263cf3fc67b70038a"
+    },
+    {
+      "name": "Stop-Connector.cmd",
+      "size": 114,
+      "sha256": "bc556e16fba8eadbd0359cd2b662703501f9f2ada66ec932eea9b1425c383548"
     },
     {
       "name": ".gitignore",
@@ -184,8 +219,8 @@
     },
     {
       "name": "CONNECTOR-README.md",
-      "size": 4482,
-      "sha256": "b4390e6ae258160ec483bf6808f3ea7ffb67bc86297495794e0c539f33d0fb77"
+      "size": 5163,
+      "sha256": "0958334f37c1b43c2655c1d5eb556d551ee25c1677635bf9cb5f4092a1687365"
     },
     {
       "name": "SPEC-v4.0.md",
@@ -199,18 +234,28 @@
     },
     {
       "name": "RELEASE-VERIFICATION.md",
-      "size": 3656,
-      "sha256": "620c35116f4b3af3b0fde4fedf133eef03768e90af511cb8ff3be1acff1a14f1"
+      "size": 4218,
+      "sha256": "6394cc8f61f6b827d7c5c0a1efdfa5253c94793e9a8a923497e45f0b3fa6e5e5"
+    },
+    {
+      "name": "AUTO-SETUP.md",
+      "size": 5839,
+      "sha256": "1aaac30409becb86d8e47c777ca3c3c03eb455b3735a78bb3ab89933bb55d78d"
+    },
+    {
+      "name": "상세한 사용법 및 활용법.md",
+      "size": 51362,
+      "sha256": "cd2f3384ed72c2182c582860b3da06d50151df35f0927e77a67804ac241cc3f7"
     },
     {
       "name": "README.md",
-      "size": 5270,
-      "sha256": "bdf07c1d88db69b2b5e6d3ed0381777e4a778a10075b64f6e2191014c4b6d977"
+      "size": 6358,
+      "sha256": "9c3d027264c98b58e168d80c2714bcba7806a2c2d3950c91c5679f8a11021f34"
     },
     {
       "name": "package.json",
-      "size": 266,
-      "sha256": "56b6f7aba3b60a4be8423a5cb289672a9faf9ca365021a1e98e11c2ae507a042"
+      "size": 267,
+      "sha256": "f9673eedde76950da5047c76073ba35af2e639ec7ccd35679db4dcf44ae89a97"
     }
   ]
 }

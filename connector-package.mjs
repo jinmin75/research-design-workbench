@@ -6,7 +6,9 @@ import {createHash} from 'node:crypto';
 export const CONNECTOR_FILES=Object.freeze([
  'connector-server.mjs','subscription-ai.mjs','provider-login.mjs','decision.mjs','gemini-api.mjs','research-ai.mjs',
  'scripts/Provider-Login.ps1','public/connector.html','public/connector-page.mjs','public/styles.css',
- 'Start-Connector.ps1','Start-Connector.cmd','CONNECTOR-README.md'
+ 'Start-Connector.ps1','Start-Connector.cmd','Stop-Connector.ps1','Stop-Connector.cmd','CONNECTOR-README.md',
+ 'scripts/Dependency-Setup.psm1','dependency-lock.json','Setup.ps1','Setup.cmd',
+ 'AUTO-SETUP.md','GEMINI-API.md','상세한 사용법 및 활용법.md'
 ]);
 function crc32(bytes){let crc=0xffffffff;for(const byte of bytes){crc^=byte;for(let bit=0;bit<8;bit++)crc=(crc>>>1)^((crc&1)?0xedb88320:0);}return (crc^0xffffffff)>>>0;}
 function packagePath(value){
@@ -40,5 +42,5 @@ export async function buildFilePackage(root,{files,format,version}){
  const directory=Buffer.concat(central),end=Buffer.alloc(22);end.writeUInt32LE(0x06054b50,0);end.writeUInt16LE(entries.length,8);end.writeUInt16LE(entries.length,10);end.writeUInt32LE(directory.length,12);end.writeUInt32LE(offset,16);
  return Buffer.concat([...local,directory,end]);
 }
-// Stored ZIP, stable timestamps and names. Node is the only required runtime.
-export function buildConnectorPackage(root){return buildFilePackage(root,{files:CONNECTOR_FILES,format:'research-student-connector',version:'1.1.0'});}
+// Stored ZIP, stable timestamps and names. The Windows bootstrap prepares the runtime separately.
+export function buildConnectorPackage(root){return buildFilePackage(root,{files:CONNECTOR_FILES,format:'research-student-connector',version:'1.2.0'});}

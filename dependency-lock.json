@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-19",
+  "node": {
+    "minimumMajor": 22,
+    "version": "24.22.0",
+    "archives": {
+      "x64": {
+        "url": "https://nodejs.org/dist/v24.22.0/node-v24.22.0-win-x64.zip",
+        "sha256": "f9683a19877e12a9b167305c8db71040d812876359de21f0d2e97c3f321f80c3"
+      },
+      "arm64": {
+        "url": "https://nodejs.org/dist/v24.22.0/node-v24.22.0-win-arm64.zip",
+        "sha256": "3a5c209a5bc59e65b3bc0fa13ed5e166a26bd3d55332847f498b76b037408d61"
+      }
+    },
+    "source": "https://nodejs.org/dist/v24.22.0/SHASUMS256.txt"
+  },
+  "providers": {
+    "codex": {
+      "name": "@openai/codex",
+      "version": "0.163.0",
+      "integrity": "sha512-HNd7vR9oTK6M2ikxFnvNDCdYUgAsyo9VVnd5KnEd2ON0GYI++7MiX9XNPUkhtdgGKFPsWS+CEppQ1UU63uVhUw==",
+      "source": "https://registry.npmjs.org/@openai/codex/0.163.0"
+    },
+    "claude": {
+      "name": "@anthropic-ai/claude-code",
+      "version": "2.1.303",
+      "integrity": "sha512-vGwsxL/bjxl7crYg2/BLBs75ErQ22x9L3LKqZqwqZ9vwp6A41sVCDdBXsPftM19V5LAwK6/s/sAxIVjX6F4O6Q==",
+      "source": "https://registry.npmjs.org/@anthropic-ai/claude-code/2.1.303"
+    }
+  },
+  "npmArtifacts": {
+    "https://registry.npmjs.org/@openai/codex/-/codex-0.163.0.tgz": "sha512-HNd7vR9oTK6M2ikxFnvNDCdYUgAsyo9VVnd5KnEd2ON0GYI++7MiX9XNPUkhtdgGKFPsWS+CEppQ1UU63uVhUw==",
+    "https://registry.npmjs.org/@openai/codex/-/codex-0.163.0-win32-x64.tgz": "sha512-QQGQ/q9dCJ5C5jqhgFrwycpWG3szIyFNThMiKl6hYtu6N/eM3Qd7StesgnCFAfzVED8IkE3N3oH71szzcludqw==",
+    "https://registry.npmjs.org/@openai/codex/-/codex-0.163.0-win32-arm64.tgz": "sha512-QnLn3gR2dExcdTThE/HAo5BrUq0/C8zDGQ0UZL3hNzfqt9ZklT6jGTyt8JhDyNZX4uSB4HhcJtbcOWucZGC0VQ==",
+    "https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.1.303.tgz": "sha512-vGwsxL/bjxl7crYg2/BLBs75ErQ22x9L3LKqZqwqZ9vwp6A41sVCDdBXsPftM19V5LAwK6/s/sAxIVjX6F4O6Q==",
+    "https://registry.npmjs.org/@anthropic-ai/claude-code-win32-x64/-/claude-code-win32-x64-2.1.303.tgz": "sha512-op5a8/2XEY6vN3Zdg4o60IoWmmOgp048sZTsq6aDfAdhBl/brGuqAcgTBY2Jw6a6JXV1DrbirGcjVnO7v+L32g==",
+    "https://registry.npmjs.org/@anthropic-ai/claude-code-win32-arm64/-/claude-code-win32-arm64-2.1.303.tgz": "sha512-zM67Wh7c86t2vbOgIalsAn6ehIKPUMJYig1uN6tpEX9JRz60eI41T0+q1LDTr6Uo0ZSVnS3Cx6okZLoLRF7Stw=="
+  }
+}

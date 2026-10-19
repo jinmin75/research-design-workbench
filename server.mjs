@@ -227,7 +227,7 @@ export async function createApp({dataDir=process.env.RESEARCH_DATA_DIR||join(APP
    if(req.method==='GET'){
     if(route==='/api/registry')return send(200,registry);
     if(route==='/api/purposes')return send(200,purposes);
-    if(route==='/api/health')return send(200,{status:'ok',specVersion:'4.0',appVersion:'0.9.0',mode:access?'classroom':'local',externalAI:access?'personal_handoff':'on_explicit_request',...(access?{}:{appRoot:APP_ROOT})});
+    if(route==='/api/health')return send(200,{status:'ok',specVersion:'4.0',appVersion:'0.10.0',mode:access?'classroom':'local',externalAI:access?'personal_handoff':'on_explicit_request',...(access?{}:{appRoot:APP_ROOT})});
     if(route==='/api/ai/status')return send(200,access?{mode:'personal_handoff',providers:[['codex','GPT · Codex'],['claude','Claude'],['gemini','Gemini API']].map(([id,label])=>({id,label,mode:'manual_handoff',status:'personal_handoff',available:false,detail:id==='gemini'?'개인 PC 연결기에서 본인의 Gemini API 키를 입력하세요. 공유 서버는 키를 받지 않습니다.':'개인 PC의 공식 도구에서 본인 구독으로 로그인하세요. 공유 서버의 구독 계정은 사용하지 않습니다.'}))}:await (await getLocalAI()).status());
     if(route==='/api/student-connector-package'){
      res.setHeader('Content-Disposition','attachment; filename="research-student-connector.zip"');

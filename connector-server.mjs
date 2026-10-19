@@ -52,7 +52,7 @@ export async function createConnectorApp({bridge,login}={}){
    if(req.headers.origin&&!origins.includes(req.headers.origin))throw error(403,'ORIGIN_DENIED','연결기 화면에서 요청해 주세요.');
    if(!navigation&&req.headers['sec-fetch-site']==='cross-site')throw error(403,'ORIGIN_DENIED','다른 사이트에서 직접 요청할 수 없습니다.');
    if(req.method==='GET'){
-    if(route==='/api/connector/health')return send(200,{status:'ok',kind:'student-local-connector',version:'1.1.0'});
+    if(route==='/api/connector/health')return send(200,{status:'ok',kind:'student-local-connector',version:'1.2.0'});
     if(route==='/api/connector/session')return send(200,{csrfToken});
     if(route==='/api/connector/status')return send(200,await bridge.status());
     const files={'/':'public/connector.html','/connect':'public/connector.html','/connector-page.mjs':'public/connector-page.mjs','/styles.css':'public/styles.css'};
