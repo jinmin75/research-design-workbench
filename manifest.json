@@ -1,0 +1,216 @@
+{
+  "format": "research-workbench-student",
+  "version": "0.9.0",
+  "files": [
+    {
+      "name": "ai-adoption.mjs",
+      "size": 13154,
+      "sha256": "d50176147c1a5457c6f2ef2db42230ccbed1fb56e4f951c340a3653dad49da2d"
+    },
+    {
+      "name": "calculation.mjs",
+      "size": 17010,
+      "sha256": "eda02c118b0c62c479d85a883a54843eab8779622cfde91dc7e88f253f0b05da"
+    },
+    {
+      "name": "classroom.mjs",
+      "size": 18462,
+      "sha256": "f02c22b9de019764765655c85671714739e1912257b65c6019c5ba3fce5372c0"
+    },
+    {
+      "name": "connector-package.mjs",
+      "size": 3870,
+      "sha256": "05058e70dfde2905ad9f5a0082afe65dbbbc180d8f624c86aeb12ba56ee4cd8b"
+    },
+    {
+      "name": "connector-server.mjs",
+      "size": 8019,
+      "sha256": "8c5bc14ce3559c2fef84e864a2a268d787a940f60cfe18974e3e95e7b61c4cf7"
+    },
+    {
+      "name": "core.mjs",
+      "size": 26320,
+      "sha256": "08c497358b92f17ee85fe3c4fd0238b9fc5d0d61e57b12ba20dad14eb9a393e5"
+    },
+    {
+      "name": "decision.mjs",
+      "size": 56995,
+      "sha256": "ee7e2baca5858be74340b5ddbc4cebd0879b89399f1b729c47ef236b3e972361"
+    },
+    {
+      "name": "evidence-review.mjs",
+      "size": 12118,
+      "sha256": "986c45aa2ffc60851c8e201930c60c29caccbd728ca5bceaade7289a4420f9c7"
+    },
+    {
+      "name": "method-context.mjs",
+      "size": 1676,
+      "sha256": "71d068f576a845f91167bfdf6f8f35e8084077edc43b3fdd29347ecf4af3d676"
+    },
+    {
+      "name": "method-engine.mjs",
+      "size": 32277,
+      "sha256": "a301a63262c62d9401719bc98951d7fd9efb03b3f03dd497850b9cfa792fd506"
+    },
+    {
+      "name": "provider-login.mjs",
+      "size": 8493,
+      "sha256": "f0aa899a978de5752f7958ef7f5eb2177313f5508d6406799ec67f29a54e36fe"
+    },
+    {
+      "name": "registry.mjs",
+      "size": 2860,
+      "sha256": "09237c9e3fa01ea774d9b5bdea0a5b3b26cf55a75be189122c996db65c3bc655"
+    },
+    {
+      "name": "regression.mjs",
+      "size": 5404,
+      "sha256": "0a467b17a96e30a31a683ca8803a47decc66304de5fab9ee2e88986bcf93a2bf"
+    },
+    {
+      "name": "server.mjs",
+      "size": 35820,
+      "sha256": "957029df83f7966f8b158168041d3113fb0c5692203ba79577abd90ce1608a2a"
+    },
+    {
+      "name": "subscription-ai.mjs",
+      "size": 31754,
+      "sha256": "a541b749a0b8a7fbaa0680ab3357ab73a567fc51e0bff71775fa5ee0db4dc6a3"
+    },
+    {
+      "name": "gemini-api.mjs",
+      "size": 10702,
+      "sha256": "6358f98563f99326dc1e5b7c0ba6be449cdb99cdacb9435a79b4dc2097aae280"
+    },
+    {
+      "name": "research-ai.mjs",
+      "size": 1468,
+      "sha256": "57feff3a6f849fa87ec6fd4b787f6fe315febfb28f3bb293068daf98291afd27"
+    },
+    {
+      "name": "data/registry.json",
+      "size": 797556,
+      "sha256": "2b932c3f39c2130f187d9791d977973e2e85d71d09bd8390d7c5462a9b48d018"
+    },
+    {
+      "name": "data/method-cards.json",
+      "size": 157615,
+      "sha256": "83061d143f7c6ab198e323806d8dff428f72f24a022daa735c75e5cfb16e559f"
+    },
+    {
+      "name": "public/index.html",
+      "size": 545,
+      "sha256": "7eb643574774177c8c3f04fb40eb3a5409fc3c903f3d4a0d705a9cf5aae0210f"
+    },
+    {
+      "name": "public/app.mjs",
+      "size": 131952,
+      "sha256": "7d868c7c2d8d907dc71e8b28cc1c6c7734a45d7efe20a9e5d021d0f316c358a2"
+    },
+    {
+      "name": "public/decision-view.mjs",
+      "size": 53786,
+      "sha256": "622c8d321032a7e71f2607c1b0aec04ce1cf0fbc103671c087c3979f67fdaad5"
+    },
+    {
+      "name": "public/connector-client.mjs",
+      "size": 7480,
+      "sha256": "8cc510e24592e4c02a2f4b93dc356df3d58d1bee9cb76d4f6e3b1608ca69ec2c"
+    },
+    {
+      "name": "public/connector-page.mjs",
+      "size": 18251,
+      "sha256": "e0c09bf564c9900de799e63282763722526712fdd8347c2bb8397e302329f94e"
+    },
+    {
+      "name": "public/connector.html",
+      "size": 5746,
+      "sha256": "96dbcaef12c8e08cf2ab1a16574abc9a1f978b999e72a471dddabf0ec4214190"
+    },
+    {
+      "name": "public/practice.mjs",
+      "size": 6961,
+      "sha256": "22380286f740aad2ffdcba1f896f7a09e8e57e5be703f2cbef49f89f44db0d81"
+    },
+    {
+      "name": "public/project-transfer.mjs",
+      "size": 4086,
+      "sha256": "225632ae10f59d8eda7b8e7843e6bf1264bdeebef4438ca68de754493680b300"
+    },
+    {
+      "name": "public/styles.css",
+      "size": 25167,
+      "sha256": "95ce5e165883073cbfb8dd9b16f46f2e7d56a7f2c4b5793fded76e8b9c69a6af"
+    },
+    {
+      "name": "scripts/Provider-Login.ps1",
+      "size": 3060,
+      "sha256": "d1e145da1a51b7cc4ef5eb6b617eaa14a4942465544356c3ef2a112926d4cea1"
+    },
+    {
+      "name": "Launch.ps1",
+      "size": 1984,
+      "sha256": "39ea646ce9a10080cf0c22494fe7ee5950459db3c2eb8daef2378b6b290f37f3"
+    },
+    {
+      "name": "Stop.ps1",
+      "size": 397,
+      "sha256": "56215c96145394ffb977abaa00238b77013296d1301f61f4b1605b020faf800a"
+    },
+    {
+      "name": "Start.cmd",
+      "size": 106,
+      "sha256": "fd9f1c2edb08d43f20d3f31bbd418db60970a1d23fdb8db2ccbc1874df494596"
+    },
+    {
+      "name": "Stop.cmd",
+      "size": 104,
+      "sha256": "406a9522267b2b0e3c473939c9c47fffc243ab5975a666ef5edc77eb18c9c814"
+    },
+    {
+      "name": "Start-Connector.ps1",
+      "size": 2470,
+      "sha256": "1bf5983a4bb2ba23eff9c77a3038ad4263a0228ef10b9724b85983110bf5fa65"
+    },
+    {
+      "name": "Start-Connector.cmd",
+      "size": 123,
+      "sha256": "3ef43b7a7ae5df838c4e4e2bb97f7a8a028d7cf8522c895e5efcdd57ba81742b"
+    },
+    {
+      "name": ".gitignore",
+      "size": 143,
+      "sha256": "4523cfa3f1764591418f753123a0bc973fe6a26e46e74a5851df8fa8d02d292e"
+    },
+    {
+      "name": "CONNECTOR-README.md",
+      "size": 4482,
+      "sha256": "b4390e6ae258160ec483bf6808f3ea7ffb67bc86297495794e0c539f33d0fb77"
+    },
+    {
+      "name": "SPEC-v4.0.md",
+      "size": 160820,
+      "sha256": "2d3f8e6781521b7e39f6143d0c59e6e84d789a3395e797d47ab4706a14d72e3f"
+    },
+    {
+      "name": "GEMINI-API.md",
+      "size": 3677,
+      "sha256": "256fede0936a7c7ceb919fc175bb4bc7ac018ca4de62c46e6428a67939db9f8c"
+    },
+    {
+      "name": "RELEASE-VERIFICATION.md",
+      "size": 3656,
+      "sha256": "620c35116f4b3af3b0fde4fedf133eef03768e90af511cb8ff3be1acff1a14f1"
+    },
+    {
+      "name": "README.md",
+      "size": 5270,
+      "sha256": "bdf07c1d88db69b2b5e6d3ed0381777e4a778a10075b64f6e2191014c4b6d977"
+    },
+    {
+      "name": "package.json",
+      "size": 266,
+      "sha256": "56b6f7aba3b60a4be8423a5cb289672a9faf9ca365021a1e98e11c2ae507a042"
+    }
+  ]
+}

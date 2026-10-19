@@ -1,0 +1,12 @@
+projects/
+evidence/browser-downloads/
+*.tmp
+node_modules/
+logs/
+student-browser-data/
+classroom-data/
+private/
+.env
+.env.*
+!.env.example
+*.key

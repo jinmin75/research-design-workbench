@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>개인 AI 연결 · 연구설계 작업실</title>
+  <style>
+    :root{font:16px/1.6 system-ui,sans-serif;color:#183036;background:#f2f5f3}*{box-sizing:border-box}body{max-width:760px;margin:0 auto;padding:24px}h1{font-size:1.7rem}h2{font-size:1.15rem}section{background:#fff;padding:20px;margin:16px 0;border:1px solid #c9d6d0;border-radius:12px}p{margin:.6em 0}button{font:inherit;background:#145e52;color:#fff;border:0;border-radius:6px;padding:10px 14px;cursor:pointer;margin:4px}button.secondary{background:#e6eeea;color:#183036}button:disabled{opacity:.55;cursor:default}button:focus-visible{outline:3px solid #a55c00;outline-offset:3px}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f1f4f2;padding:12px;max-height:360px;overflow:auto;font-size:.85rem}#status{white-space:pre-wrap}#message{min-height:2em}#peer-origin{font-weight:700;overflow-wrap:anywhere}.provider{padding:12px 0;border-bottom:1px solid #d9e2dd}.provider:last-child{border:0}.hint{color:#445e57;font-size:.93rem}[hidden]{display:none!important}@media(max-width:460px){body{padding:12px}section{padding:14px}button{width:100%;margin:5px 0}}
+  </style>
+  <script type="module" src="/connector-page.mjs"></script>
+</head>
+<body>
+  <h1>이 컴퓨터의 개인 AI 연결</h1>
+  <p>GPT·Claude는 공식 구독 도구에 로그인합니다. Gemini는 아래에서 본인 API 키를 설정합니다. 인증 토큰과 API 키는 이 창 밖의 연구 작업실로 보내지 않습니다.</p>
+  <p class="hint">연결기와 이 창을 사용하는 동안 켜 두세요. 원격 연구 작업실은 HTTPS 주소가 필요합니다. Gemini 구독과 API 이용은 별도입니다. API 요금·데이터 정책은 계정별로 다릅니다. 민감·개인정보를 전송하지 마세요. 요청 취소나 키 삭제로 이미 처리된 사용량·요금이 취소되지는 않습니다.</p>
+  <p id="message" role="status" aria-live="polite">로컬 연결 상태를 확인하고 있습니다.</p>
+  <section id="approval" hidden aria-labelledby="approval-title">
+    <h2 id="approval-title">이 연구 작업실과 연결할까요?</h2>
+    <p>요청한 사이트: <span id="peer-origin"></span></p>
+    <p>이 사이트는 로그인 상태 확인과 로그인 시작을 요청할 수 있습니다. 연구 맥락은 매번 이 창에서 내용을 확인하고 승인한 뒤 AI에 보냅니다.</p>
+    <button id="approve" type="button">이 사이트 연결 허용</button>
+    <button id="reject" class="secondary" type="button">연결 거절</button>
+  </section>
+  <section aria-labelledby="status-title">
+    <h2 id="status-title">GPT·Claude 구독 · Gemini API</h2>
+    <p id="connection-status">공유 연구 작업실과 연결되지 않았습니다.</p>
+    <div id="providers"></div>
+    <button id="refresh" class="secondary" type="button">로그인 상태 새로 확인</button>
+    <button id="disconnect" class="secondary" type="button" hidden>작업실 연결 해제</button>
+    <p class="hint">로그인 창을 열었다는 결과만으로 연결 완료로 표시하지 않습니다. 공식 로그인 후 상태를 다시 확인하고 실제 요청 결과를 확인하세요.</p>
+  </section>
+  <section aria-labelledby="gemini-key-title">
+    <h2 id="gemini-key-title">이 컴퓨터의 Gemini API 키 설정</h2>
+    <p class="hint">키는 연결기 프로세스의 메모리에만 보관하고 종료하면 삭제합니다. 입력창은 설정 요청 즉시 비웁니다. 키 형식 등록은 실제 API 응답 확인이나 연구 타당성 검증이 아닙니다.</p>
+    <p><label for="gemini-api-key">Gemini API 키</label><br><input id="gemini-api-key" type="password" autocomplete="off" spellcheck="false" style="width:100%;font:inherit;padding:10px"></p>
+    <p><label for="gemini-api-model">Gemini API 모델</label><br><select id="gemini-api-model" style="font:inherit;padding:8px"><option value="gemini-3.8-flash">gemini-3.8-flash</option><option value="gemini-3.5-flash-lite">gemini-3.5-flash-lite</option></select></p>
+    <p><a href="https://aistudio.google.com/api-keys" target="_blank" rel="noopener noreferrer">공식 API 키 관리</a> · <a href="https://ai.google.dev/gemini-api/pricing" target="_blank" rel="noopener noreferrer">API 요금</a> · <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener noreferrer">API 이용 조건</a></p>
+    <p><label><input id="gemini-api-ack" type="checkbox"> 18세 이상이며 Gemini API 이용 조건·사용량/요금·데이터 처리 안내를 확인했습니다</label></p>
+    <button id="gemini-key-save" type="button">API 키 형식 등록</button>
+    <button id="gemini-key-delete" class="secondary" type="button">메모리의 API 키 삭제</button>
+  </section>
+  <section id="context-review" hidden aria-labelledby="context-title">
+    <h2 id="context-title">AI에 보낼 연구 맥락 확인</h2>
+    <p id="request-provider"></p>
+    <p>아래 내용이 선택한 AI 제공자에게 전송됩니다. GPT·Claude 구독 또는 Gemini API의 사용량·요금·데이터 처리 조건이 적용됩니다. 개인 식별 정보나 민감한 내용이 있으면 취소하고 연구 작업실에서 수정하세요.</p>
+    <pre id="context-preview" tabindex="0"></pre>
+    <button id="send-context" type="button">이 맥락으로 AI 요청</button>
+    <button id="cancel-request" class="secondary" type="button">요청 취소</button>
+    <p class="hint">AI 응답은 검토할 초안입니다. 계산 정확성이나 연구 타당성이 검증되었다는 뜻은 아닙니다.</p>
+  </section>
+</body>
+</html>

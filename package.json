@@ -1,0 +1,9 @@
+{
+  "name": "research-design-workbench",
+  "version": "0.9.0",
+  "private": true,
+  "type": "module",
+  "description": "Local research-design workbench for students, specification v4.0",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node server.mjs" }
+}

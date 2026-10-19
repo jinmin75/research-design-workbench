@@ -1,0 +1,2951 @@
+{
+  "schemaVersion": "0.3.0",
+  "reviewedAt": "2026-10-18",
+  "reviewPolicy": {
+    "meaningOfSourceReviewed": "명시한 범위의 1차 원문을 읽고 카드 문장을 대조한 상태입니다.",
+    "notEstablished": [
+      "방법별 전문가 타당화",
+      "추천 정확도",
+      "카드 검토 시나리오 통과",
+      "계산 엔진 실행 검증",
+      "연구 효과 또는 완전한 문헌 포괄성"
+    ],
+    "correctionRetractionSearch": "not_systematically_checked",
+    "sourceVersionPolicy": "판본은 관찰한 원문 판본이며 최신 판본 보증이 아닙니다.",
+    "claimPolicy": "직접 근거와 제품 해석을 문장별로 구분합니다."
+  },
+  "sources": [
+    {
+      "id": "S-R-TABLE",
+      "authors": "R Core Team",
+      "title": "Cross Tabulation and Table Creation",
+      "url": "https://stat.ethz.ch/R-manual/R-devel/library/base/html/table.html",
+      "version": "R-devel base 4.6.0 observed; live page",
+      "kind": "official_documentation",
+      "accessLevel": "full_text",
+      "accessedAt": "2026-10-18",
+      "source_reviewer_checked": true,
+      "reviewedLocations": "Description; Details; Value",
+      "retractionCorrectionStatus": "not_systematically_checked",
+      "reviewScope": "명시한 본문 절을 직접 확인한 문서 검토이며 전문가 타당화가 아닙니다."
+    },
+    {
+      "id": "S-NIST-LOCATION",
+      "authors": "NIST/SEMATECH",
+      "title": "1.3.5.1. Measures of Location",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
+      "version": "online handbook observed 2026-10-18",
+      "kind": "official_documentation",
+      "accessLevel": "full_text",
+      "accessedAt": "2026-10-18",
+      "source_reviewer_checked": true,
+      "reviewedLocations": "Definitions; Discussion; Other Measures of Location",
+      "retractionCorrectionStatus": "not_systematically_checked",
+      "reviewScope": "명시한 본문 절을 직접 확인한 문서 검토이며 전문가 타당화가 아닙니다."
+    },
+    {
+      "id": "S-NIST-SCALE",
+      "authors": "NIST/SEMATECH",
+      "title": "1.3.5.6. Measures of Scale",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm",
+      "version": "online handbook observed 2026-10-18",
+      "kind": "official_documentation",
+      "accessLevel": "full_text",
+      "accessedAt": "2026-10-18",
+      "source_reviewer_checked": true,
+      "reviewedLocations": "Definitions; Discussion",
+      "retractionCorrectionStatus": "not_systematically_checked",
+      "reviewScope": "명시한 본문 절을 직접 확인한 문서 검토이며 전문가 타당화가 아닙니다."
+    },
+    {
+      "id": "S-NIST-COR",
+      "authors": "NIST",
+      "title": "CORRELATION",
+      "url": "https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/correlat.htm",
+      "version": "page last updated 2018-09-12",
+      "kind": "official_documentation",
+      "accessLevel": "full_text",
+      "accessedAt": "2026-10-18",
+      "source_reviewer_checked": true,
+      "reviewedLocations": "Description; Note; Related Commands",
+      "retractionCorrectionStatus": "not_systematically_checked",
+      "reviewScope": "명시한 본문 절을 직접 확인한 문서 검토이며 전문가 타당화가 아닙니다."
+    },
+    {
+      "id": "S-R-COR",
+      "authors": "R Core Team",
+      "title": "Correlation, Variance and Covariance (Matrices)",
+      "url": "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/cor.html",
+      "version": "R-devel stats 4.6.0 observed; live page",
+      "kind": "official_documentation",
+      "accessLevel": "full_text",
+      "accessedAt": "2026-10-18",
+      "source_reviewer_checked": true,
+      "reviewedLocations": "Details; Value",
+      "retractionCorrectionStatus": "not_systematically_checked",
+      "reviewScope": "명시한 본문 절을 직접 확인한 문서 검토이며 전문가 타당화가 아닙니다."
+    },
+    {
+      "id": "S-NIST-OLS",
+      "authors": "NIST/SEMATECH",
+      "title": "4.1.4.1. Linear Least Squares Regression",
+      "url": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+      "version": "online handbook observed 2026-10-18",
+      "kind": "official_documentation",
+      "accessLevel": "full_text",
+      "accessedAt": "2026-10-18",
+      "source_reviewer_checked": true,
+      "reviewedLocations": "Model Definition; Parameter Estimation; Advantages and Disadvantages",
+      "retractionCorrectionStatus": "not_systematically_checked",
+      "reviewScope": "명시한 본문 절을 직접 확인한 문서 검토이며 전문가 타당화가 아닙니다."
+    },
+    {
+      "id": "S-IPA",
+      "authors": "Jonathan A Smith; Mike Osborn",
+      "title": "Interpretative phenomenological analysis as a useful methodology for research on the lived experience of pain",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+      "version": "2015; British Journal of Pain 9(1):41-42; DOI 10.1177/2049463714541642",
+      "kind": "original_author_article",
+      "accessLevel": "full_text",
+      "accessedAt": "2026-10-18",
+      "source_reviewer_checked": true,
+      "reviewedLocations": "main text paragraphs on phenomenology, hermeneutics, idiography, interviewing and analysis",
+      "retractionCorrectionStatus": "not_systematically_checked",
+      "reviewScope": "명시한 본문 절을 직접 확인한 문서 검토이며 전문가 타당화가 아닙니다."
+    },
+    {
+      "id": "S-JOINT",
+      "authors": "Timothy C Guetterman; Michael D Fetters; John W Creswell",
+      "title": "Integrating Quantitative and Qualitative Results in Health Science Mixed Methods Research Through Joint Displays",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+      "version": "2015; Annals of Family Medicine 13(6):554-561; DOI 10.1370/afm.1865",
+      "kind": "original_research_article",
+      "accessLevel": "full_text",
+      "accessedAt": "2026-10-18",
+      "source_reviewer_checked": true,
+      "reviewedLocations": "Introduction: Integration; Integration at the Analytic and Interpretation Level; Discussion",
+      "retractionCorrectionStatus": "not_systematically_checked",
+      "reviewScope": "명시한 본문 절을 직접 확인한 문서 검토이며 전문가 타당화가 아닙니다."
+    },
+    {
+      "id": "S-JBI",
+      "authors": "Micah DJ Peters; Christina Godfrey; Patricia McInerney; Zachary Munn; Andrea C Tricco; Hanan Khalil",
+      "title": "JBI Manual for Evidence Synthesis: Scoping reviews",
+      "url": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+      "version": "Scoping Reviews (2020), in JBI Manual for Evidence Synthesis 2024; chapter DOI 10.46658/JBIMES-24-09",
+      "kind": "official_methodology_manual",
+      "accessLevel": "full_text",
+      "accessedAt": "2026-10-18",
+      "source_reviewer_checked": true,
+      "reviewedLocations": "Chapter 10, §§10.1.1, 10.2, 10.2.2, 10.2.4-10.2.9; PDF pages 163, 166-171 (one-based)",
+      "retractionCorrectionStatus": "not_systematically_checked",
+      "reviewScope": "명시한 본문 절을 직접 확인한 문서 검토이며 전문가 타당화가 아닙니다."
+    },
+    {
+      "id": "S-TRACE",
+      "authors": "David Collier",
+      "title": "Understanding Process Tracing",
+      "url": "https://escholarship.org/content/qt4fh4z41c/qt4fh4z41c.pdf",
+      "version": "2011 article pp.823-830 plus author addendum in repository PDF; DOI 10.1017/S1049096511001429",
+      "kind": "original_author_article",
+      "accessLevel": "full_text",
+      "accessedAt": "2026-10-18",
+      "source_reviewer_checked": true,
+      "reviewedLocations": "printed pp.823-827; author addendum PDF page 2; article begins PDF page 3 (one-based)",
+      "retractionCorrectionStatus": "not_systematically_checked",
+      "reviewScope": "명시한 본문 절을 직접 확인한 문서 검토이며 전문가 타당화가 아닙니다."
+    },
+    {
+      "id": "S-CONSORT",
+      "authors": "Sally Hopewell and coauthors",
+      "title": "CONSORT 2025 explanation and elaboration: updated guideline for reporting randomised trials",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+      "version": "2025-04-14; BMJ 389:e081124; DOI 10.1136/bmj-2024-081124",
+      "kind": "original_reporting_guideline",
+      "accessLevel": "full_text",
+      "accessedAt": "2026-10-18",
+      "source_reviewer_checked": true,
+      "reviewedLocations": "Items17a,17b,18,19,21b,21c,21d,22a,22b,26; Discussion",
+      "retractionCorrectionStatus": "not_systematically_checked",
+      "reviewScope": "명시한 본문 절을 직접 확인한 문서 검토이며 전문가 타당화가 아닙니다."
+    },
+    {
+      "id": "S-NIST-RESIDUAL",
+      "authors": "NIST/SEMATECH",
+      "title": "4.4.4. How can I tell if a model fits my data?",
+      "url": "https://www.itl.nist.gov/div898/handbook/pmd/section4/pmd44.htm",
+      "version": "online handbook observed 2026-10-18",
+      "kind": "official_documentation",
+      "accessLevel": "full_text",
+      "accessedAt": "2026-10-18",
+      "source_reviewer_checked": true,
+      "reviewedLocations": "R² Is Not Enough; Main Tool: Graphical Residual Analysis; Residuals; Why Use Residuals",
+      "retractionCorrectionStatus": "not_systematically_checked",
+      "reviewScope": "명시한 본문 절을 직접 확인한 문서 검토이며 전문가 타당화가 아닙니다."
+    },
+    {
+      "id": "S-NIST-INDEPENDENCE",
+      "authors": "NIST/SEMATECH",
+      "title": "4.4.4.4. How can I assess whether the random errors are independent from one to the next?",
+      "url": "https://www.itl.nist.gov/div898/handbook/pmd/section4/pmd444.htm",
+      "version": "online handbook observed 2026-10-18",
+      "kind": "official_documentation",
+      "accessLevel": "full_text",
+      "accessedAt": "2026-10-18",
+      "source_reviewer_checked": true,
+      "reviewedLocations": "Lag Plot Shows Dependence Between Residuals; Interpretation; Next Steps",
+      "retractionCorrectionStatus": "not_systematically_checked",
+      "reviewScope": "명시한 본문 절을 직접 확인한 문서 검토이며 전문가 타당화가 아닙니다."
+    },
+    {
+      "id": "S-WB-IEP2",
+      "authors": "Paul J. Gertler; Sebastian Martinez; Patrick Premand; Laura B. Rawlings; Christel M. J. Vermeersch",
+      "title": "Impact Evaluation in Practice, second edition",
+      "url": "https://documents1.worldbank.org/curated/en/698441474029568469/pdf/Impact-evaluation-in-practice.pdf",
+      "version": "2016; World Bank and Inter-American Development Bank; DOI 10.1596/978-1-4648-0779-4",
+      "kind": "official_methodology_manual",
+      "accessLevel": "full_text",
+      "accessedAt": "2026-10-18",
+      "source_reviewer_checked": true,
+      "reviewedLocations": "Chapter4: Internal/External Validity (printed pp.71–74; PDF101–104), Steps in Randomized Assignment (pp.75–78; PDF105–108), Level of Assignment (pp.79–80; PDF109–110); Chapter15 (pp.264–266; PDF294–296); title/copyright PDF5–6. PDF positions are one-based.",
+      "retractionCorrectionStatus": "not_systematically_checked",
+      "reviewScope": "명시한 본문 절을 직접 확인한 문서 검토이며 전문가 타당화가 아닙니다."
+    },
+    {
+      "id": "S-TRACE-BERKELEY",
+      "authors": "David Collier",
+      "title": "Understanding Process Tracing",
+      "url": "https://polisci.berkeley.edu/sites/default/files/people/u3827/Understanding%20Process%20Tracing.pdf",
+      "version": "2011; PS: Political Science & Politics 44(4):823–830; DOI 10.1017/S1049096511001429; university author copy without repository addendum",
+      "kind": "original_author_article",
+      "accessLevel": "full_text",
+      "accessedAt": "2026-10-18",
+      "source_reviewer_checked": true,
+      "reviewedLocations": "printed pp.823–827; PDF1–5 (one-based): Description; Prior Knowledge; Descriptive Inference; Causal Inference; Table1; Distinctions among Tests; Assumptions and Interpretations",
+      "retractionCorrectionStatus": "not_systematically_checked",
+      "reviewScope": "명시한 본문 절을 직접 확인한 문서 검토이며 전문가 타당화가 아닙니다."
+    }
+  ],
+  "cards": [
+    {
+      "methodId": "M050",
+      "cardVersion": "0.2.0",
+      "reviewStatus": "source_reviewed",
+      "source_reviewer_checked": true,
+      "expertValidated": false,
+      "recommendationStatus": "unverified",
+      "executionValidation": "not_run",
+      "executionReviewScope": "이 카드 검토는 엔진 계산 검사와 독립적입니다.",
+      "reviewer": "Codex source document reviewer; subject-matter expert review pending",
+      "reviewedAt": "2026-10-18",
+      "expertValidation": "not_run",
+      "recommendationValidation": "not_run",
+      "validationCases": {
+        "normal": [
+          "단일 선택 범주 자료에서 총건수와 범주 건수 합계를 대조하는 검토안을 준비했습니다."
+        ],
+        "risk": [
+          "다중응답 건수를 응답자 수로 오인하는 경우를 검토해야 합니다."
+        ],
+        "boundary": [
+          "전부 결측인 자료의 분모와 출력 보류 조건을 검토해야 합니다."
+        ],
+        "status": "not_run"
+      },
+      "claimSources": [
+        {
+          "claimId": "M050-C01",
+          "field": "question",
+          "text": "각 범주에 몇 건이 관찰되었는지 요약합니다.",
+          "sourceId": "S-R-TABLE",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/base/html/table.html",
+          "location": "Description; Details; Value",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M050-C02",
+          "field": "premises",
+          "text": "범주 수준과 결측값 포함 규칙을 먼저 지정합니다.",
+          "sourceId": "S-R-TABLE",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/base/html/table.html",
+          "location": "Description; Details; Value",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M050-C03",
+          "field": "applicability",
+          "text": "범주별 관측 건수를 집계할 때 사용합니다.",
+          "sourceId": "S-R-TABLE",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/base/html/table.html",
+          "location": "Description; Details; Value",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M050-C04",
+          "field": "exclusions",
+          "text": "가중 표본의 모집단 추정은 이 카드의 단순 건수 범위에서 제외합니다.",
+          "sourceId": "S-R-TABLE",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/base/html/table.html",
+          "location": "Description; Details; Value",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M050-C05",
+          "field": "dataRequirements",
+          "text": "범주 변수와 범주 수준 정보가 필요합니다.",
+          "sourceId": "S-R-TABLE",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/base/html/table.html",
+          "location": "Description; Details; Value",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M050-C06",
+          "field": "procedure",
+          "text": "계산은 범주별 건수를 집계하고 인간 검토자는 범주 코딩과 결측 처리 규칙을 확인합니다.",
+          "sourceId": "S-R-TABLE",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/base/html/table.html",
+          "location": "Description; Details; Value",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M050-C07",
+          "field": "uncertainty",
+          "text": "결측값을 제외할지 별도 범주로 셀지에 따라 표가 달라집니다.",
+          "sourceId": "S-R-TABLE",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/base/html/table.html",
+          "location": "Description; Details; Value",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M050-C08",
+          "field": "resultUnit",
+          "text": "결과 단위는 관측 건수이며 비율을 추가하면 분모를 명시합니다.",
+          "sourceId": "S-R-TABLE",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/base/html/table.html",
+          "location": "Description; Details; Value",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M050-C09",
+          "field": "allowedConclusion",
+          "text": "입력 자료의 범주별 건수 분포를 기술할 수 있습니다.",
+          "sourceId": "S-R-TABLE",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/base/html/table.html",
+          "location": "Description; Details; Value",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M050-C10",
+          "field": "prohibitedConclusion",
+          "text": "건수 차이만으로 인과관계나 모집단 대표성을 확정하지 않습니다.",
+          "sourceId": "S-R-TABLE",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/base/html/table.html",
+          "location": "Description; Details; Value",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M050-C11",
+          "field": "alternatives",
+          "text": "두 범주 변수의 결합 분포가 질문이면 교차표를 탐색할 수 있습니다.",
+          "sourceId": "S-R-TABLE",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/base/html/table.html",
+          "location": "Description; Details; Value",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M050-C12",
+          "field": "visualization",
+          "text": "막대그림에는 범주·건수·결측 처리·분모·자료 판본을 연결합니다.",
+          "sourceId": "S-R-TABLE",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/base/html/table.html",
+          "location": "Description; Details; Value",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M050-C13",
+          "field": "missingAndCounterevidence",
+          "text": "빈 범주와 결측 범주의 구분을 검토합니다.",
+          "sourceId": "S-R-TABLE",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/base/html/table.html",
+          "location": "Description; Details; Value",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M050-C14",
+          "field": "validationCases.normal",
+          "text": "단일 선택 범주 자료에서 총건수와 범주 건수 합계를 대조하는 검토안을 준비했습니다.",
+          "sourceId": "S-R-TABLE",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/base/html/table.html",
+          "location": "Description; Details; Value",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M050-C15",
+          "field": "validationCases.risk",
+          "text": "다중응답 건수를 응답자 수로 오인하는 경우를 검토해야 합니다.",
+          "sourceId": "S-R-TABLE",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/base/html/table.html",
+          "location": "Description; Details; Value",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M050-C16",
+          "field": "validationCases.boundary",
+          "text": "전부 결측인 자료의 분모와 출력 보류 조건을 검토해야 합니다.",
+          "sourceId": "S-R-TABLE",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/base/html/table.html",
+          "location": "Description; Details; Value",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M050-C17",
+          "field": "reviewGaps",
+          "text": "단순 빈도 정의만 문서 검토했으며 복합표본 가중 추정은 검토하지 않았습니다.",
+          "sourceId": "S-R-TABLE",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/base/html/table.html",
+          "location": "Description; Details; Value",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        }
+      ],
+      "sourceIds": [
+        "S-R-TABLE"
+      ],
+      "reviewGaps": [
+        "단순 빈도 정의만 문서 검토했으며 복합표본 가중 추정은 검토하지 않았습니다."
+      ],
+      "question": [
+        "각 범주에 몇 건이 관찰되었는지 요약합니다."
+      ],
+      "premises": [
+        "범주 수준과 결측값 포함 규칙을 먼저 지정합니다."
+      ],
+      "applicability": [
+        "범주별 관측 건수를 집계할 때 사용합니다."
+      ],
+      "exclusions": [
+        "가중 표본의 모집단 추정은 이 카드의 단순 건수 범위에서 제외합니다."
+      ],
+      "dataRequirements": [
+        "범주 변수와 범주 수준 정보가 필요합니다."
+      ],
+      "procedure": [
+        "계산은 범주별 건수를 집계하고 인간 검토자는 범주 코딩과 결측 처리 규칙을 확인합니다."
+      ],
+      "uncertainty": [
+        "결측값을 제외할지 별도 범주로 셀지에 따라 표가 달라집니다."
+      ],
+      "resultUnit": [
+        "결과 단위는 관측 건수이며 비율을 추가하면 분모를 명시합니다."
+      ],
+      "allowedConclusion": [
+        "입력 자료의 범주별 건수 분포를 기술할 수 있습니다."
+      ],
+      "prohibitedConclusion": [
+        "건수 차이만으로 인과관계나 모집단 대표성을 확정하지 않습니다."
+      ],
+      "alternatives": [
+        "두 범주 변수의 결합 분포가 질문이면 교차표를 탐색할 수 있습니다."
+      ],
+      "visualization": [
+        "막대그림에는 범주·건수·결측 처리·분모·자료 판본을 연결합니다."
+      ],
+      "missingAndCounterevidence": [
+        "빈 범주와 결측 범주의 구분을 검토합니다."
+      ],
+      "maintainer": "research-workbench maintainers; expert owner unassigned"
+    },
+    {
+      "methodId": "M053",
+      "cardVersion": "0.2.0",
+      "reviewStatus": "source_reviewed",
+      "source_reviewer_checked": true,
+      "expertValidated": false,
+      "recommendationStatus": "unverified",
+      "executionValidation": "not_run",
+      "executionReviewScope": "이 카드 검토는 엔진 계산 검사와 독립적입니다.",
+      "reviewer": "Codex source document reviewer; subject-matter expert review pending",
+      "reviewedAt": "2026-10-18",
+      "expertValidation": "not_run",
+      "recommendationValidation": "not_run",
+      "validationCases": {
+        "normal": [
+          "알려진 수치 예제의 평균·중앙값·표본표준편차를 별도 엔진 검사와 대조할 검토안입니다."
+        ],
+        "risk": [
+          "극단값 추가 전후 중심·퍼짐 변화를 검토해야 합니다."
+        ],
+        "boundary": [
+          "N=1에서 표본분산을 산출하지 않는지 검토해야 합니다."
+        ],
+        "status": "not_run"
+      },
+      "claimSources": [
+        {
+          "claimId": "M053-C01",
+          "field": "question",
+          "text": "자료의 중심과 퍼짐을 요약합니다.",
+          "sourceId": "S-NIST-SCALE",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm",
+          "location": "§1.3.5.6 Purpose; Definitions",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M053-C02",
+          "field": "premises",
+          "text": "왜도와 극단값을 살펴 중심 요약을 선택합니다.",
+          "sourceId": "S-NIST-LOCATION",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
+          "location": "§1.3.5.1 Definitions; Discussion",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M053-C03",
+          "field": "applicability",
+          "text": "평균·중앙값으로 중심을, 표준편차 등으로 퍼짐을 기술할 때 사용합니다.",
+          "sourceId": "S-NIST-SCALE",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm",
+          "location": "§1.3.5.6 Definitions",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M053-C04",
+          "field": "exclusions",
+          "text": "이 요약만으로 집단 차이나 인과효과 검정을 수행하지 않습니다.",
+          "sourceId": "S-NIST-LOCATION",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
+          "location": "§1.3.5.1 Definitions; Discussion",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M053-C05",
+          "field": "dataRequirements",
+          "text": "수치 자료와 측정 단위가 필요합니다.",
+          "sourceId": "S-NIST-LOCATION",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
+          "location": "§1.3.5.1 Definitions; Discussion",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M053-C06",
+          "field": "procedure",
+          "text": "계산 엔진은 평균·중앙값을 계산하고 인간은 분포와 자료 의미를 검토합니다.",
+          "sourceId": "S-NIST-LOCATION",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
+          "location": "§1.3.5.1 Definitions; Discussion",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M053-C07",
+          "field": "procedure",
+          "text": "표본분산의 분모는 N−1이며 표준편차는 그 제곱근입니다.",
+          "sourceId": "S-NIST-SCALE",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm",
+          "location": "§1.3.5.6 Variance; Standard Deviation",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M053-C08",
+          "field": "uncertainty",
+          "text": "긴 꼬리와 극단값은 평균과 표준편차를 크게 움직일 수 있습니다.",
+          "sourceId": "S-NIST-SCALE",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm",
+          "location": "§1.3.5.6 Discussion",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M053-C09",
+          "field": "resultUnit",
+          "text": "표준편차는 원자료와 같은 단위이며 분산은 제곱 단위입니다.",
+          "sourceId": "S-NIST-SCALE",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm",
+          "location": "§1.3.5.6 Standard Deviation",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M053-C10",
+          "field": "allowedConclusion",
+          "text": "관찰 자료의 중심과 변동을 기술할 수 있습니다.",
+          "sourceId": "S-NIST-LOCATION",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
+          "location": "§1.3.5.1 Definitions; Discussion",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M053-C11",
+          "field": "prohibitedConclusion",
+          "text": "기술 요약을 모집단 타당성의 검증 결과로 표시하지 않습니다.",
+          "sourceId": "S-NIST-LOCATION",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
+          "location": "§1.3.5.1 Definitions; Discussion",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M053-C12",
+          "field": "alternatives",
+          "text": "극단값의 영향이 크면 중앙값과 IQR을 함께 검토합니다.",
+          "sourceId": "S-NIST-SCALE",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm",
+          "location": "§1.3.5.6 Discussion",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M053-C13",
+          "field": "visualization",
+          "text": "분포그림에 수치·단위·유효 N·결측 규칙·자료 판본을 연결합니다.",
+          "sourceId": "S-NIST-SCALE",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm",
+          "location": "§1.3.5.6 Purpose",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M053-C14",
+          "field": "missingAndCounterevidence",
+          "text": "결측 제외 수와 극단값 포함 여부를 기록합니다.",
+          "sourceId": "S-NIST-LOCATION",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
+          "location": "§1.3.5.1 Definitions; Discussion",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M053-C15",
+          "field": "validationCases.normal",
+          "text": "알려진 수치 예제의 평균·중앙값·표본표준편차를 별도 엔진 검사와 대조할 검토안입니다.",
+          "sourceId": "S-NIST-LOCATION",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
+          "location": "§1.3.5.1 Definitions; Discussion",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M053-C16",
+          "field": "validationCases.risk",
+          "text": "극단값 추가 전후 중심·퍼짐 변화를 검토해야 합니다.",
+          "sourceId": "S-NIST-LOCATION",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
+          "location": "§1.3.5.1 Definitions; Discussion",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M053-C17",
+          "field": "validationCases.boundary",
+          "text": "N=1에서 표본분산을 산출하지 않는지 검토해야 합니다.",
+          "sourceId": "S-NIST-LOCATION",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
+          "location": "§1.3.5.1 Definitions; Discussion",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M053-C18",
+          "field": "reviewGaps",
+          "text": "이 카드는 문서 검토 결과이며 별도 계산 모듈의 검사 통과를 승계하지 않습니다.",
+          "sourceId": "S-NIST-LOCATION",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm",
+          "location": "§1.3.5.1 Definitions; Discussion",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        }
+      ],
+      "sourceIds": [
+        "S-NIST-SCALE",
+        "S-NIST-LOCATION"
+      ],
+      "reviewGaps": [
+        "이 카드는 문서 검토 결과이며 별도 계산 모듈의 검사 통과를 승계하지 않습니다."
+      ],
+      "question": [
+        "자료의 중심과 퍼짐을 요약합니다."
+      ],
+      "premises": [
+        "왜도와 극단값을 살펴 중심 요약을 선택합니다."
+      ],
+      "applicability": [
+        "평균·중앙값으로 중심을, 표준편차 등으로 퍼짐을 기술할 때 사용합니다."
+      ],
+      "exclusions": [
+        "이 요약만으로 집단 차이나 인과효과 검정을 수행하지 않습니다."
+      ],
+      "dataRequirements": [
+        "수치 자료와 측정 단위가 필요합니다."
+      ],
+      "procedure": [
+        "계산 엔진은 평균·중앙값을 계산하고 인간은 분포와 자료 의미를 검토합니다.",
+        "표본분산의 분모는 N−1이며 표준편차는 그 제곱근입니다."
+      ],
+      "uncertainty": [
+        "긴 꼬리와 극단값은 평균과 표준편차를 크게 움직일 수 있습니다."
+      ],
+      "resultUnit": [
+        "표준편차는 원자료와 같은 단위이며 분산은 제곱 단위입니다."
+      ],
+      "allowedConclusion": [
+        "관찰 자료의 중심과 변동을 기술할 수 있습니다."
+      ],
+      "prohibitedConclusion": [
+        "기술 요약을 모집단 타당성의 검증 결과로 표시하지 않습니다."
+      ],
+      "alternatives": [
+        "극단값의 영향이 크면 중앙값과 IQR을 함께 검토합니다."
+      ],
+      "visualization": [
+        "분포그림에 수치·단위·유효 N·결측 규칙·자료 판본을 연결합니다."
+      ],
+      "missingAndCounterevidence": [
+        "결측 제외 수와 극단값 포함 여부를 기록합니다."
+      ],
+      "maintainer": "research-workbench maintainers; expert owner unassigned"
+    },
+    {
+      "methodId": "M081",
+      "cardVersion": "0.2.0",
+      "reviewStatus": "source_reviewed",
+      "source_reviewer_checked": true,
+      "expertValidated": false,
+      "recommendationStatus": "unverified",
+      "executionValidation": "not_run",
+      "executionReviewScope": "이 카드 검토는 엔진 계산 검사와 독립적입니다.",
+      "reviewer": "Codex source document reviewer; subject-matter expert review pending",
+      "reviewedAt": "2026-10-18",
+      "expertValidation": "not_run",
+      "recommendationValidation": "not_run",
+      "validationCases": {
+        "normal": [
+          "같은 길이의 수치 쌍에서 알려진 r과 대조하는 검토안입니다."
+        ],
+        "risk": [
+          "쌍별 결측 제외로 상관행렬 성질이 달라지는 경우를 검토해야 합니다."
+        ],
+        "boundary": [
+          "상수 변수 또는 완전한 관측 쌍이 없는 자료를 검토해야 합니다."
+        ],
+        "status": "not_run"
+      },
+      "claimSources": [
+        {
+          "claimId": "M081-C01",
+          "field": "question",
+          "text": "두 변수의 선형 연관을 요약합니다.",
+          "sourceId": "S-NIST-COR",
+          "sourceURL": "https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/correlat.htm",
+          "location": "Description; Note",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M081-C02",
+          "field": "premises",
+          "text": "같은 관측 단위에 대응하는 두 변수의 자료 수가 같아야 합니다.",
+          "sourceId": "S-NIST-COR",
+          "sourceURL": "https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/correlat.htm",
+          "location": "Description; Note",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M081-C03",
+          "field": "applicability",
+          "text": "두 수치 변수 사이 선형 연관을 살필 때 사용합니다.",
+          "sourceId": "S-NIST-COR",
+          "sourceURL": "https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/correlat.htm",
+          "location": "Description; Note",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M081-C04",
+          "field": "exclusions",
+          "text": "비선형 관계 전체나 인과효과를 r 하나로 판정하지 않습니다.",
+          "sourceId": "S-NIST-COR",
+          "sourceURL": "https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/correlat.htm",
+          "location": "Description; Note",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M081-C05",
+          "field": "dataRequirements",
+          "text": "관측 쌍과 결측 처리 규칙이 필요합니다.",
+          "sourceId": "S-R-COR",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/cor.html",
+          "location": "Details",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M081-C06",
+          "field": "procedure",
+          "text": "계산은 중심화한 곱의 합을 두 제곱합 제곱근의 곱으로 나눕니다.",
+          "sourceId": "S-NIST-COR",
+          "sourceURL": "https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/correlat.htm",
+          "location": "Description; Note",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M081-C07",
+          "field": "procedure",
+          "text": "인간 검토자는 산점도와 관측 쌍의 의미를 검토합니다.",
+          "sourceId": "S-NIST-COR",
+          "sourceURL": "https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/correlat.htm",
+          "location": "Description; Note",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M081-C08",
+          "field": "uncertainty",
+          "text": "쌍별 결측 제외는 상관행렬이 양의 준정부호가 아니게 만들 수 있습니다.",
+          "sourceId": "S-R-COR",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/cor.html",
+          "location": "Details: pairwise.complete.obs",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M081-C09",
+          "field": "resultUnit",
+          "text": "상관계수 r은 단위를 갖지 않습니다.",
+          "sourceId": "S-NIST-COR",
+          "sourceURL": "https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/correlat.htm",
+          "location": "Description; Note",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M081-C10",
+          "field": "allowedConclusion",
+          "text": "관찰된 두 변수의 선형 연관 방향과 크기를 기술할 수 있습니다.",
+          "sourceId": "S-NIST-COR",
+          "sourceURL": "https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/correlat.htm",
+          "location": "Description; Note",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M081-C11",
+          "field": "prohibitedConclusion",
+          "text": "r을 인과효과나 연구 타당성의 확정으로 제시하지 않습니다.",
+          "sourceId": "S-NIST-COR",
+          "sourceURL": "https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/correlat.htm",
+          "location": "Description; Note",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M081-C12",
+          "field": "alternatives",
+          "text": "순위 연관이 질문이면 Spearman 또는 Kendall 상관을 탐색합니다.",
+          "sourceId": "S-R-COR",
+          "sourceURL": "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/cor.html",
+          "location": "Details",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M081-C13",
+          "field": "visualization",
+          "text": "산점도에 변수 단위·관측 쌍 N·결측 규칙·자료 판본을 연결합니다.",
+          "sourceId": "S-NIST-COR",
+          "sourceURL": "https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/correlat.htm",
+          "location": "Description; Note",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M081-C14",
+          "field": "missingAndCounterevidence",
+          "text": "상수 변수는 분모가 0이므로 계산을 보류합니다.",
+          "sourceId": "S-NIST-COR",
+          "sourceURL": "https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/correlat.htm",
+          "location": "Description; Note",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M081-C15",
+          "field": "validationCases.normal",
+          "text": "같은 길이의 수치 쌍에서 알려진 r과 대조하는 검토안입니다.",
+          "sourceId": "S-NIST-COR",
+          "sourceURL": "https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/correlat.htm",
+          "location": "Description; Note",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M081-C16",
+          "field": "validationCases.risk",
+          "text": "쌍별 결측 제외로 상관행렬 성질이 달라지는 경우를 검토해야 합니다.",
+          "sourceId": "S-NIST-COR",
+          "sourceURL": "https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/correlat.htm",
+          "location": "Description; Note",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M081-C17",
+          "field": "validationCases.boundary",
+          "text": "상수 변수 또는 완전한 관측 쌍이 없는 자료를 검토해야 합니다.",
+          "sourceId": "S-NIST-COR",
+          "sourceURL": "https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/correlat.htm",
+          "location": "Description; Note",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M081-C18",
+          "field": "reviewGaps",
+          "text": "p값·신뢰구간의 추론 가정과 실제 엔진은 이 검토에서 검증하지 않았습니다.",
+          "sourceId": "S-NIST-COR",
+          "sourceURL": "https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/correlat.htm",
+          "location": "Description; Note",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        }
+      ],
+      "sourceIds": [
+        "S-NIST-COR",
+        "S-R-COR"
+      ],
+      "reviewGaps": [
+        "p값·신뢰구간의 추론 가정과 실제 엔진은 이 검토에서 검증하지 않았습니다."
+      ],
+      "question": [
+        "두 변수의 선형 연관을 요약합니다."
+      ],
+      "premises": [
+        "같은 관측 단위에 대응하는 두 변수의 자료 수가 같아야 합니다."
+      ],
+      "applicability": [
+        "두 수치 변수 사이 선형 연관을 살필 때 사용합니다."
+      ],
+      "exclusions": [
+        "비선형 관계 전체나 인과효과를 r 하나로 판정하지 않습니다."
+      ],
+      "dataRequirements": [
+        "관측 쌍과 결측 처리 규칙이 필요합니다."
+      ],
+      "procedure": [
+        "계산은 중심화한 곱의 합을 두 제곱합 제곱근의 곱으로 나눕니다.",
+        "인간 검토자는 산점도와 관측 쌍의 의미를 검토합니다."
+      ],
+      "uncertainty": [
+        "쌍별 결측 제외는 상관행렬이 양의 준정부호가 아니게 만들 수 있습니다."
+      ],
+      "resultUnit": [
+        "상관계수 r은 단위를 갖지 않습니다."
+      ],
+      "allowedConclusion": [
+        "관찰된 두 변수의 선형 연관 방향과 크기를 기술할 수 있습니다."
+      ],
+      "prohibitedConclusion": [
+        "r을 인과효과나 연구 타당성의 확정으로 제시하지 않습니다."
+      ],
+      "alternatives": [
+        "순위 연관이 질문이면 Spearman 또는 Kendall 상관을 탐색합니다."
+      ],
+      "visualization": [
+        "산점도에 변수 단위·관측 쌍 N·결측 규칙·자료 판본을 연결합니다."
+      ],
+      "missingAndCounterevidence": [
+        "상수 변수는 분모가 0이므로 계산을 보류합니다."
+      ],
+      "maintainer": "research-workbench maintainers; expert owner unassigned"
+    },
+    {
+      "methodId": "M087",
+      "cardVersion": "0.3.0",
+      "reviewStatus": "source_reviewed",
+      "source_reviewer_checked": true,
+      "expertValidated": false,
+      "recommendationStatus": "unverified",
+      "executionValidation": "not_run",
+      "executionReviewScope": "이 카드 검토는 엔진 계산 검사와 독립적입니다.",
+      "reviewer": "Codex source document reviewer; subject-matter expert review pending",
+      "reviewedAt": "2026-10-18",
+      "expertValidation": "not_run",
+      "recommendationValidation": "not_run",
+      "validationCases": {
+        "normal": [
+          "알려진 직선 자료에서 절편·기울기를 대조하는 검토안입니다."
+        ],
+        "risk": [
+          "영향력 큰 이상값과 관측 범위 밖 예측을 검토해야 합니다."
+        ],
+        "boundary": [
+          "x가 모두 같은 자료의 식별 불가능성을 검토해야 합니다."
+        ],
+        "status": "not_run"
+      },
+      "claimSources": [
+        {
+          "claimId": "M087-C01",
+          "field": "question",
+          "text": "하나의 설명변수와 결과변수 사이 직선 관계를 모형화합니다.",
+          "sourceId": "S-NIST-OLS",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+          "location": "§4.1.4.1 Model Definition; Parameter Estimation; Disadvantages",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M087-C02",
+          "field": "premises",
+          "text": "이 카드의 모형 범위는 절편과 기울기를 가진 y=β0+β1x입니다.",
+          "sourceId": "S-NIST-OLS",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+          "location": "§4.1.4.1 Model Definition; Parameter Estimation; Disadvantages",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M087-C03",
+          "field": "applicability",
+          "text": "관측 범위에서 직선 관계의 기술과 예측 후보로 검토합니다.",
+          "sourceId": "S-NIST-OLS",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+          "location": "§4.1.4.1 Model Definition; Parameter Estimation; Disadvantages",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M087-C04",
+          "field": "exclusions",
+          "text": "적합한 직선을 얻었다는 이유만으로 인과효과를 확정하지 않습니다.",
+          "sourceId": "S-NIST-OLS",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+          "location": "§4.1.4.1 Model Definition; Parameter Estimation; Disadvantages",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M087-C05",
+          "field": "dataRequirements",
+          "text": "같은 단위에 대응하는 x·y 관측값과 측정 단위가 필요합니다.",
+          "sourceId": "S-NIST-OLS",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+          "location": "§4.1.4.1 Model Definition; Parameter Estimation; Disadvantages",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M087-C06",
+          "field": "procedure",
+          "text": "계산은 관측값과 모형값 차이의 제곱합을 최소화합니다.",
+          "sourceId": "S-NIST-OLS",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+          "location": "§4.1.4.1 Model Definition; Parameter Estimation; Disadvantages",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M087-C07",
+          "field": "procedure",
+          "text": "인간 검토자는 모형 적합성과 이상값의 영향을 검토합니다.",
+          "sourceId": "S-NIST-OLS",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+          "location": "§4.1.4.1 Model Definition; Parameter Estimation; Disadvantages",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M087-C08",
+          "field": "uncertainty",
+          "text": "최소제곱 적합은 이상값에 민감하며 외삽은 위험합니다.",
+          "sourceId": "S-NIST-OLS",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+          "location": "§4.1.4.1 Model Definition; Parameter Estimation; Disadvantages",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M087-C09",
+          "field": "resultUnit",
+          "text": "기울기 단위는 y 단위를 x 단위로 나눈 것입니다.",
+          "sourceId": "S-NIST-OLS",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+          "location": "§4.1.4.1 Model Definition; Parameter Estimation; Disadvantages",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M087-C10",
+          "field": "allowedConclusion",
+          "text": "검토한 모형과 자료 범위 안에서 적합 관계를 기술할 수 있습니다.",
+          "sourceId": "S-NIST-OLS",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+          "location": "§4.1.4.1 Model Definition; Parameter Estimation; Disadvantages",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M087-C11",
+          "field": "prohibitedConclusion",
+          "text": "모형 밖 외삽이나 가정 미검토 구간추정을 검증된 결과로 제시하지 않습니다.",
+          "sourceId": "S-NIST-OLS",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+          "location": "§4.1.4.1 Model Definition; Parameter Estimation; Disadvantages",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M087-C12",
+          "field": "alternatives",
+          "text": "직선이 부적합하면 다른 함수 형태의 모형을 별도로 검토합니다.",
+          "sourceId": "S-NIST-OLS",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+          "location": "§4.1.4.1 Model Definition; Parameter Estimation; Disadvantages",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M087-C13",
+          "field": "visualization",
+          "text": "산점도·적합선에 단위·범위·잔차 검토·구간의 종류·판본을 연결합니다.",
+          "sourceId": "S-NIST-OLS",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+          "location": "§4.1.4.1 Model Definition; Parameter Estimation; Disadvantages",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M087-C14",
+          "field": "missingAndCounterevidence",
+          "text": "이상값과 모형이 설명하지 못한 잔차를 숨기지 않습니다.",
+          "sourceId": "S-NIST-OLS",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+          "location": "§4.1.4.1 Model Definition; Parameter Estimation; Disadvantages",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M087-C15",
+          "field": "validationCases.normal",
+          "text": "알려진 직선 자료에서 절편·기울기를 대조하는 검토안입니다.",
+          "sourceId": "S-NIST-OLS",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+          "location": "§4.1.4.1 Model Definition; Parameter Estimation; Disadvantages",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M087-C16",
+          "field": "validationCases.risk",
+          "text": "영향력 큰 이상값과 관측 범위 밖 예측을 검토해야 합니다.",
+          "sourceId": "S-NIST-OLS",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+          "location": "§4.1.4.1 Model Definition; Parameter Estimation; Disadvantages",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M087-C17",
+          "field": "validationCases.boundary",
+          "text": "x가 모두 같은 자료의 식별 불가능성을 검토해야 합니다.",
+          "sourceId": "S-NIST-OLS",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+          "location": "§4.1.4.1 Model Definition; Parameter Estimation; Disadvantages",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M087-C18",
+          "field": "reviewGaps",
+          "text": "추론 가정별 진단·구간추정·실행 엔진은 검증하지 않았습니다.",
+          "sourceId": "S-NIST-OLS",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm",
+          "location": "§4.1.4.1 Model Definition; Parameter Estimation; Disadvantages",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M087-C19",
+          "field": "procedure",
+          "text": "잔차는 관측한 y에서 적합한 y를 뺀 값으로 계산하고, 인간 연구자가 잔차의 구조를 검토합니다.",
+          "sourceId": "S-NIST-RESIDUAL",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section4/pmd44.htm",
+          "location": "§4.4.4 Residuals; Why Use Residuals",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M087-C20",
+          "field": "prohibitedConclusion",
+          "text": "큰 R² 하나로 모형 적합성이 확인되었다고 판정하지 않습니다.",
+          "sourceId": "S-NIST-RESIDUAL",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section4/pmd44.htm",
+          "location": "§4.4.4 R² Is Not Enough",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M087-C21",
+          "field": "uncertainty",
+          "text": "오차가 서로 의존하면 오차 표준편차 추정이 편향되어 추론이 잘못될 수 있습니다.",
+          "sourceId": "S-NIST-INDEPENDENCE",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section4/pmd444.htm",
+          "location": "§4.4.4.4 Lag Plot Shows Dependence Between Residuals",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M087-C22",
+          "field": "procedure",
+          "text": "시간 순서가 있는 자료는 실행 순서와 잔차 시차 그림의 구조를 함께 검토합니다.",
+          "sourceId": "S-NIST-INDEPENDENCE",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section4/pmd444.htm",
+          "location": "§4.4.4.4 Next Steps",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M087-C23",
+          "field": "exclusions",
+          "text": "이 카드의 기술적 직선 적합을 군집·반복측정 자료의 보정된 추론으로 제시하지 않습니다.",
+          "sourceId": "S-NIST-INDEPENDENCE",
+          "sourceURL": "https://www.itl.nist.gov/div898/handbook/pmd/section4/pmd444.htm",
+          "location": "§4.4.4.4 dependence warning; product boundary",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 적용 범위를 참고한 제품 안내 해석이며 원문이 이 제품 규칙이나 연구 타당성을 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M087-C24",
+          "field": "dataRequirements",
+          "text": "모집단으로 일반화하려면 표집틀과 표집 과정을 별도로 검토합니다.",
+          "sourceId": "S-WB-IEP2",
+          "sourceURL": "https://documents1.worldbank.org/curated/en/698441474029568469/pdf/Impact-evaluation-in-practice.pdf",
+          "location": "Chapter15 printed pp.264–266; PDF294–296 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        }
+      ],
+      "sourceIds": [
+        "S-NIST-OLS",
+        "S-NIST-RESIDUAL",
+        "S-NIST-INDEPENDENCE",
+        "S-WB-IEP2"
+      ],
+      "reviewGaps": [
+        "추론 가정별 진단·구간추정·실행 엔진은 검증하지 않았습니다."
+      ],
+      "question": [
+        "하나의 설명변수와 결과변수 사이 직선 관계를 모형화합니다."
+      ],
+      "premises": [
+        "이 카드의 모형 범위는 절편과 기울기를 가진 y=β0+β1x입니다."
+      ],
+      "applicability": [
+        "관측 범위에서 직선 관계의 기술과 예측 후보로 검토합니다."
+      ],
+      "exclusions": [
+        "적합한 직선을 얻었다는 이유만으로 인과효과를 확정하지 않습니다.",
+        "이 카드의 기술적 직선 적합을 군집·반복측정 자료의 보정된 추론으로 제시하지 않습니다."
+      ],
+      "dataRequirements": [
+        "같은 단위에 대응하는 x·y 관측값과 측정 단위가 필요합니다.",
+        "모집단으로 일반화하려면 표집틀과 표집 과정을 별도로 검토합니다."
+      ],
+      "procedure": [
+        "계산은 관측값과 모형값 차이의 제곱합을 최소화합니다.",
+        "인간 검토자는 모형 적합성과 이상값의 영향을 검토합니다.",
+        "잔차는 관측한 y에서 적합한 y를 뺀 값으로 계산하고, 인간 연구자가 잔차의 구조를 검토합니다.",
+        "시간 순서가 있는 자료는 실행 순서와 잔차 시차 그림의 구조를 함께 검토합니다."
+      ],
+      "uncertainty": [
+        "최소제곱 적합은 이상값에 민감하며 외삽은 위험합니다.",
+        "오차가 서로 의존하면 오차 표준편차 추정이 편향되어 추론이 잘못될 수 있습니다."
+      ],
+      "resultUnit": [
+        "기울기 단위는 y 단위를 x 단위로 나눈 것입니다."
+      ],
+      "allowedConclusion": [
+        "검토한 모형과 자료 범위 안에서 적합 관계를 기술할 수 있습니다."
+      ],
+      "prohibitedConclusion": [
+        "모형 밖 외삽이나 가정 미검토 구간추정을 검증된 결과로 제시하지 않습니다.",
+        "큰 R² 하나로 모형 적합성이 확인되었다고 판정하지 않습니다."
+      ],
+      "alternatives": [
+        "직선이 부적합하면 다른 함수 형태의 모형을 별도로 검토합니다."
+      ],
+      "visualization": [
+        "산점도·적합선에 단위·범위·잔차 검토·구간의 종류·판본을 연결합니다."
+      ],
+      "missingAndCounterevidence": [
+        "이상값과 모형이 설명하지 못한 잔차를 숨기지 않습니다."
+      ],
+      "maintainer": "research-workbench maintainers; expert owner unassigned"
+    },
+    {
+      "methodId": "M273",
+      "cardVersion": "0.3.0",
+      "reviewStatus": "partial",
+      "source_reviewer_checked": true,
+      "expertValidated": false,
+      "recommendationStatus": "unverified",
+      "executionValidation": "not_run",
+      "executionReviewScope": "이 카드 검토는 엔진 계산 검사와 독립적입니다.",
+      "reviewer": "Codex source document reviewer; subject-matter expert review pending",
+      "reviewedAt": "2026-10-18",
+      "expertValidation": "not_run",
+      "recommendationValidation": "not_run",
+      "validationCases": {
+        "normal": [
+          "사례별 해석과 원문 발췌의 연결을 검토할 계획입니다."
+        ],
+        "risk": [
+          "맥락을 제거한 자동 주제 확정을 검토해야 합니다."
+        ],
+        "boundary": [
+          "경험 진술이 빈약한 사례의 해석 보류를 검토해야 합니다."
+        ],
+        "status": "not_run"
+      },
+      "claimSources": [
+        {
+          "claimId": "M273-C01",
+          "field": "question",
+          "text": "참여자가 경험을 어떻게 이해하는지 해석합니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text paragraph on phenomenology (pp.41-42)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M273-C02",
+          "field": "premises",
+          "text": "연구자는 참여자의 의미 만들기를 다시 해석합니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text paragraph on hermeneutics and double interpretation (pp.41-42)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M273-C03",
+          "field": "applicability",
+          "text": "복잡하고 정서적인 경험을 자세히 탐구할 때 검토합니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text paragraph on complex, ambiguous, emotionally laden topics (pp.41-42)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M273-C04",
+          "field": "exclusions",
+          "text": "이 카드만으로 전체 IPA 분석 절차를 이행했다고 판정하지 않습니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text: phenomenology; hermeneutics; idiography; interviewing; analysis (pp.41-42)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M273-C05",
+          "field": "dataRequirements",
+          "text": "참여자의 풍부한 경험 진술이 필요합니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text paragraph on rich experiential accounts and interviewing (pp.41-42)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M273-C06",
+          "field": "procedure",
+          "text": "인간 연구자가 공감적이고 탐색적인 면담을 수행합니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text paragraph on skilled empathic interviewing (pp.41-42)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M273-C07",
+          "field": "procedure",
+          "text": "개별 사례를 자세히 읽은 뒤 사례를 가로지르는 주장을 검토합니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text paragraph on idiographic focus, each case before general claims (pp.41-42)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M273-C08",
+          "field": "uncertainty",
+          "text": "해석은 참여자가 말한 내용에 근거해야 합니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text paragraph on inductive micro-reading grounded in what participants said (pp.41-42)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M273-C09",
+          "field": "resultUnit",
+          "text": "결과는 사례별 경험 해석이며 인용 근거와 연결합니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text: phenomenology; hermeneutics; idiography; interviewing; analysis (pp.41-42)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M273-C10",
+          "field": "allowedConclusion",
+          "text": "검토한 사례에서 경험의 의미를 해석할 수 있습니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text: phenomenology; hermeneutics; idiography; interviewing; analysis (pp.41-42)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M273-C11",
+          "field": "prohibitedConclusion",
+          "text": "해석 주제를 모집단 빈도나 AI가 입증한 의미로 제시하지 않습니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text: phenomenology; hermeneutics; idiography; interviewing; analysis (pp.41-42)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M273-C12",
+          "field": "alternatives",
+          "text": "질문이 달라지면 다른 질적 전통과 비교하되 별도 근거 검토가 필요합니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text: phenomenology; hermeneutics; idiography; interviewing; analysis (pp.41-42)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M273-C13",
+          "field": "visualization",
+          "text": "사례·해석·원문 발췌·위치를 연결하는 표를 검토합니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text: phenomenology; hermeneutics; idiography; interviewing; analysis (pp.41-42)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M273-C14",
+          "field": "missingAndCounterevidence",
+          "text": "해석과 어긋나는 진술과 연구자의 해석 메모를 보존합니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text: phenomenology; hermeneutics; idiography; interviewing; analysis (pp.41-42)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M273-C15",
+          "field": "validationCases.normal",
+          "text": "사례별 해석과 원문 발췌의 연결을 검토할 계획입니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text: phenomenology; hermeneutics; idiography; interviewing; analysis (pp.41-42)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M273-C16",
+          "field": "validationCases.risk",
+          "text": "맥락을 제거한 자동 주제 확정을 검토해야 합니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text: phenomenology; hermeneutics; idiography; interviewing; analysis (pp.41-42)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M273-C17",
+          "field": "validationCases.boundary",
+          "text": "경험 진술이 빈약한 사례의 해석 보류를 검토해야 합니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text: phenomenology; hermeneutics; idiography; interviewing; analysis (pp.41-42)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M273-C18",
+          "field": "reviewGaps",
+          "text": "직접 읽은 자료는 저자들의 짧은 방법론 논고로 상세 분석 매뉴얼을 대체하지 못합니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text: phenomenology; hermeneutics; idiography; interviewing; analysis (pp.41-42)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M273-C19",
+          "field": "procedure",
+          "text": "사례마다 경험 진술을 세밀하게 읽고 참여자가 말한 내용을 해석의 근거로 남깁니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text: idiography and small sample paragraphs, printed pp.41–42",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M273-C20",
+          "field": "applicability",
+          "text": "복잡하고 모호하며 정서적 의미가 큰 경험을 다룰 때 이 접근을 검토할 수 있습니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text: paragraph beginning There are a number of reasons, pp.41–42",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M273-C21",
+          "field": "dataRequirements",
+          "text": "풍부한 경험 서술을 이끌어낼 수 있도록 면담자의 공감적 관여와 후속 탐색 역량을 검토합니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text: paragraph beginning And pain is a prime exemplar, pp.41–42",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M273-C22",
+          "field": "uncertainty",
+          "text": "이 논고는 소수 사례의 미세한 읽기를 설명하며 모든 IPA 연구에 적용할 고정 표본 수를 정하지 않습니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "main text: small sample paragraph and examples; product scope",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 적용 범위를 참고한 제품 안내 해석이며 원문이 이 제품 규칙이나 연구 타당성을 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M273-C23",
+          "field": "reviewGaps",
+          "text": "면담·개별 사례 읽기의 근거를 보강했으나 상세 분석 단계와 분야별 질 평가 매뉴얼은 추가 확인이 필요합니다.",
+          "sourceId": "S-IPA",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616994/",
+          "location": "References1 and main text; scope of short author article",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 적용 범위를 참고한 제품 안내 해석이며 원문이 이 제품 규칙이나 연구 타당성을 검증하지 않았습니다."
+        }
+      ],
+      "sourceIds": [
+        "S-IPA"
+      ],
+      "reviewGaps": [
+        "직접 읽은 자료는 저자들의 짧은 방법론 논고로 상세 분석 매뉴얼을 대체하지 못합니다.",
+        "면담·개별 사례 읽기의 근거를 보강했으나 상세 분석 단계와 분야별 질 평가 매뉴얼은 추가 확인이 필요합니다."
+      ],
+      "question": [
+        "참여자가 경험을 어떻게 이해하는지 해석합니다."
+      ],
+      "premises": [
+        "연구자는 참여자의 의미 만들기를 다시 해석합니다."
+      ],
+      "applicability": [
+        "복잡하고 정서적인 경험을 자세히 탐구할 때 검토합니다.",
+        "복잡하고 모호하며 정서적 의미가 큰 경험을 다룰 때 이 접근을 검토할 수 있습니다."
+      ],
+      "exclusions": [
+        "이 카드만으로 전체 IPA 분석 절차를 이행했다고 판정하지 않습니다."
+      ],
+      "dataRequirements": [
+        "참여자의 풍부한 경험 진술이 필요합니다.",
+        "풍부한 경험 서술을 이끌어낼 수 있도록 면담자의 공감적 관여와 후속 탐색 역량을 검토합니다."
+      ],
+      "procedure": [
+        "인간 연구자가 공감적이고 탐색적인 면담을 수행합니다.",
+        "개별 사례를 자세히 읽은 뒤 사례를 가로지르는 주장을 검토합니다.",
+        "사례마다 경험 진술을 세밀하게 읽고 참여자가 말한 내용을 해석의 근거로 남깁니다."
+      ],
+      "uncertainty": [
+        "해석은 참여자가 말한 내용에 근거해야 합니다.",
+        "이 논고는 소수 사례의 미세한 읽기를 설명하며 모든 IPA 연구에 적용할 고정 표본 수를 정하지 않습니다."
+      ],
+      "resultUnit": [
+        "결과는 사례별 경험 해석이며 인용 근거와 연결합니다."
+      ],
+      "allowedConclusion": [
+        "검토한 사례에서 경험의 의미를 해석할 수 있습니다."
+      ],
+      "prohibitedConclusion": [
+        "해석 주제를 모집단 빈도나 AI가 입증한 의미로 제시하지 않습니다."
+      ],
+      "alternatives": [
+        "질문이 달라지면 다른 질적 전통과 비교하되 별도 근거 검토가 필요합니다."
+      ],
+      "visualization": [
+        "사례·해석·원문 발췌·위치를 연결하는 표를 검토합니다."
+      ],
+      "missingAndCounterevidence": [
+        "해석과 어긋나는 진술과 연구자의 해석 메모를 보존합니다."
+      ],
+      "maintainer": "research-workbench maintainers; expert owner unassigned"
+    },
+    {
+      "methodId": "M297",
+      "cardVersion": "0.3.0",
+      "reviewStatus": "partial",
+      "source_reviewer_checked": true,
+      "expertValidated": false,
+      "recommendationStatus": "unverified",
+      "executionValidation": "not_run",
+      "executionReviewScope": "이 카드 검토는 엔진 계산 검사와 독립적입니다.",
+      "reviewer": "Codex source document reviewer; subject-matter expert review pending",
+      "reviewedAt": "2026-10-18",
+      "expertValidation": "not_run",
+      "recommendationValidation": "not_run",
+      "validationCases": {
+        "normal": [
+          "같은 사례의 정량 결과와 질적 발췌를 연결하는 검토안입니다."
+        ],
+        "risk": [
+          "다른 모집단 자료를 같은 사례로 잘못 결합하는 경우를 검토해야 합니다."
+        ],
+        "boundary": [
+          "한쪽 자료가 없는 셀의 통합 해석 보류를 검토해야 합니다."
+        ],
+        "status": "not_run"
+      },
+      "claimSources": [
+        {
+          "claimId": "M297-C01",
+          "field": "question",
+          "text": "정량·질적 결과를 연결해 통합 해석을 만듭니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Introduction: Integration at the Analytic and Interpretation Level, first three paragraphs",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M297-C02",
+          "field": "premises",
+          "text": "통합에는 명시적인 이유와 공동 연구질문이 필요합니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Introduction: Integration, first paragraph; Integration at the Analytic and Interpretation Level, last paragraph",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M297-C03",
+          "field": "applicability",
+          "text": "혼합연구 설계와 통합 방식에 맞춘 표를 검토합니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Discussion, best-practices paragraph beginning On the basis",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M297-C04",
+          "field": "exclusions",
+          "text": "정량·질적 결과를 나란히 놓기만 하고 통합했다고 판정하지 않습니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Introduction: Integration; Methods: Eligibility Criteria",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M297-C05",
+          "field": "dataRequirements",
+          "text": "분석한 정량·질적 결과와 그 연결 근거가 필요합니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Introduction: Integration",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M297-C06",
+          "field": "procedure",
+          "text": "정량 결과와 질적 결과를 표시하고 설계에 맞게 배열합니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Discussion, best-practices paragraph beginning On the basis",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M297-C07",
+          "field": "procedure",
+          "text": "인간 연구자가 통합으로 얻은 해석을 명시합니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Discussion, best-practices paragraph beginning On the basis",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M297-C08",
+          "field": "uncertainty",
+          "text": "연결할 수 없는 사례와 불일치를 남겨 검토합니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Introduction: Integration; Integration at the Analytic and Interpretation Level; Discussion (pp.554-561)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M297-C09",
+          "field": "resultUnit",
+          "text": "결과는 연결한 사례·주제·통계의 통합 해석입니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Introduction: Integration; Integration at the Analytic and Interpretation Level; Discussion (pp.554-561)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M297-C10",
+          "field": "allowedConclusion",
+          "text": "두 자료를 연결해 얻은 통찰을 근거와 함께 제시할 수 있습니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Introduction: Integration at the Analytic and Interpretation Level",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M297-C11",
+          "field": "prohibitedConclusion",
+          "text": "표의 존재를 통합 타당성의 자동 검증으로 제시하지 않습니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Introduction: Integration; Integration at the Analytic and Interpretation Level; Discussion (pp.554-561)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M297-C12",
+          "field": "alternatives",
+          "text": "통합 서술과 시각적 통합표를 비교할 수 있습니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Introduction: Integration at the Analytic and Interpretation Level, first paragraph",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M297-C13",
+          "field": "visualization",
+          "text": "셀마다 원자료 위치·정량 단위·분모·해석 판본을 연결합니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Introduction: Integration; Integration at the Analytic and Interpretation Level; Discussion (pp.554-561)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M297-C14",
+          "field": "missingAndCounterevidence",
+          "text": "한쪽 자료만 있는 셀과 상충하는 결과를 표시합니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Introduction: Integration; Integration at the Analytic and Interpretation Level; Discussion (pp.554-561)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M297-C15",
+          "field": "validationCases.normal",
+          "text": "같은 사례의 정량 결과와 질적 발췌를 연결하는 검토안입니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Introduction: Integration; Integration at the Analytic and Interpretation Level; Discussion (pp.554-561)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M297-C16",
+          "field": "validationCases.risk",
+          "text": "다른 모집단 자료를 같은 사례로 잘못 결합하는 경우를 검토해야 합니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Introduction: Integration; Integration at the Analytic and Interpretation Level; Discussion (pp.554-561)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M297-C17",
+          "field": "validationCases.boundary",
+          "text": "한쪽 자료가 없는 셀의 통합 해석 보류를 검토해야 합니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Introduction: Integration; Integration at the Analytic and Interpretation Level; Discussion (pp.554-561)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M297-C18",
+          "field": "reviewGaps",
+          "text": "보건 연구 사례를 분석한 논문이며 분야별 통합 타당성의 전문가 검토는 미실시입니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Methods: Design and Study Selection; Discussion, limitations paragraph",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M297-C19",
+          "field": "procedure",
+          "text": "정량 결과와 질적 결과를 구분해 표시하고, 설계·통합 접근에 맞춰 배열한 뒤 새 통찰을 명시합니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Discussion: best practices numbered1–4",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M297-C20",
+          "field": "applicability",
+          "text": "수렴 설계에서는 주제와 통계를 교차하거나 두 결과를 나란히 비교하는 표를 검토할 수 있습니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Discussion: convergent design joint displays",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M297-C21",
+          "field": "uncertainty",
+          "text": "이 논문은 주로 세 학술지의 보건 연구 사례를 선정했으므로 선정 편향과 분야 전이의 한계를 남깁니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Discussion: limitations paragraph",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M297-C22",
+          "field": "procedure",
+          "text": "표의 모양을 정하기 전에 인간 연구자가 연결 목적과 통합으로 답하려는 질문을 기록합니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Integration; Integration at the Analytic and Interpretation Level",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 적용 범위를 참고한 제품 안내 해석이며 원문이 이 제품 규칙이나 연구 타당성을 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M297-C23",
+          "field": "reviewGaps",
+          "text": "통합표의 배열 절차를 보강했으며 다른 분야의 통합 사례와 불일치 처리 기준은 별도 원문 대조가 필요합니다.",
+          "sourceId": "S-JOINT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639381/",
+          "location": "Discussion: limitations and best practices; product scope",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 적용 범위를 참고한 제품 안내 해석이며 원문이 이 제품 규칙이나 연구 타당성을 검증하지 않았습니다."
+        }
+      ],
+      "sourceIds": [
+        "S-JOINT"
+      ],
+      "reviewGaps": [
+        "보건 연구 사례를 분석한 논문이며 분야별 통합 타당성의 전문가 검토는 미실시입니다.",
+        "통합표의 배열 절차를 보강했으며 다른 분야의 통합 사례와 불일치 처리 기준은 별도 원문 대조가 필요합니다."
+      ],
+      "question": [
+        "정량·질적 결과를 연결해 통합 해석을 만듭니다."
+      ],
+      "premises": [
+        "통합에는 명시적인 이유와 공동 연구질문이 필요합니다."
+      ],
+      "applicability": [
+        "혼합연구 설계와 통합 방식에 맞춘 표를 검토합니다.",
+        "수렴 설계에서는 주제와 통계를 교차하거나 두 결과를 나란히 비교하는 표를 검토할 수 있습니다."
+      ],
+      "exclusions": [
+        "정량·질적 결과를 나란히 놓기만 하고 통합했다고 판정하지 않습니다."
+      ],
+      "dataRequirements": [
+        "분석한 정량·질적 결과와 그 연결 근거가 필요합니다."
+      ],
+      "procedure": [
+        "정량 결과와 질적 결과를 표시하고 설계에 맞게 배열합니다.",
+        "인간 연구자가 통합으로 얻은 해석을 명시합니다.",
+        "정량 결과와 질적 결과를 구분해 표시하고, 설계·통합 접근에 맞춰 배열한 뒤 새 통찰을 명시합니다.",
+        "표의 모양을 정하기 전에 인간 연구자가 연결 목적과 통합으로 답하려는 질문을 기록합니다."
+      ],
+      "uncertainty": [
+        "연결할 수 없는 사례와 불일치를 남겨 검토합니다.",
+        "이 논문은 주로 세 학술지의 보건 연구 사례를 선정했으므로 선정 편향과 분야 전이의 한계를 남깁니다."
+      ],
+      "resultUnit": [
+        "결과는 연결한 사례·주제·통계의 통합 해석입니다."
+      ],
+      "allowedConclusion": [
+        "두 자료를 연결해 얻은 통찰을 근거와 함께 제시할 수 있습니다."
+      ],
+      "prohibitedConclusion": [
+        "표의 존재를 통합 타당성의 자동 검증으로 제시하지 않습니다."
+      ],
+      "alternatives": [
+        "통합 서술과 시각적 통합표를 비교할 수 있습니다."
+      ],
+      "visualization": [
+        "셀마다 원자료 위치·정량 단위·분모·해석 판본을 연결합니다."
+      ],
+      "missingAndCounterevidence": [
+        "한쪽 자료만 있는 셀과 상충하는 결과를 표시합니다."
+      ],
+      "maintainer": "research-workbench maintainers; expert owner unassigned"
+    },
+    {
+      "methodId": "M307",
+      "cardVersion": "0.3.0",
+      "reviewStatus": "partial",
+      "source_reviewer_checked": true,
+      "expertValidated": false,
+      "recommendationStatus": "unverified",
+      "executionValidation": "not_run",
+      "executionReviewScope": "이 카드 검토는 엔진 계산 검사와 독립적입니다.",
+      "reviewer": "Codex source document reviewer; subject-matter expert review pending",
+      "reviewedAt": "2026-10-18",
+      "expertValidation": "not_run",
+      "recommendationValidation": "not_run",
+      "validationCases": {
+        "normal": [
+          "질문·포함 기준·추출 항목이 일치하는지 검토할 계획입니다."
+        ],
+        "risk": [
+          "검색 누락을 근거 부재로 단정하는 경우를 검토해야 합니다."
+        ],
+        "boundary": [
+          "포함 자료가 없는 고찰의 범위와 결론을 검토해야 합니다."
+        ],
+        "status": "not_run"
+      },
+      "claimSources": [
+        {
+          "claimId": "M307-C01",
+          "field": "question",
+          "text": "연구영역의 개념·자료·근거 범위를 지도화합니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "2024 §10.1.1 Why a scoping review?; PDF page163 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M307-C02",
+          "field": "premises",
+          "text": "질문과 포함 기준을 사전 프로토콜에 정합니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "2024 §10.2 Development of a scoping review protocol; PDF page166 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M307-C03",
+          "field": "applicability",
+          "text": "Population·Concept·Context로 범위를 구체화할 수 있습니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "2024 §10.2.2 Developing the title and question; PDF pages166-167 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M307-C04",
+          "field": "exclusions",
+          "text": "근거 지도화만으로 효과의 확실성을 평가했다고 주장하지 않습니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "2024 §10.2.8 Analysis of the evidence; PDF page170 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M307-C05",
+          "field": "dataRequirements",
+          "text": "검색원·검색식·포함 기준·선정 기록·추출 자료가 필요합니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "2024 §§10.2.4 Inclusion criteria,10.2.5 Search Strategy,10.2.6 Source of evidence selection,10.2.7 Data extraction; PDF pages168-170 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M307-C06",
+          "field": "procedure",
+          "text": "사람이 선정과 불일치를 검토하고 사전 추출 양식을 시험합니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "2024 §§10.2.6 Source of evidence selection,10.2.7 Data extraction; PDF pages169-170 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M307-C07",
+          "field": "uncertainty",
+          "text": "시간·자원 제약과 검색 범위를 명시합니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "2024 §10.2.5 Search Strategy; PDF page169 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M307-C08",
+          "field": "resultUnit",
+          "text": "결과는 질문에 맞춘 근거 특성의 기술적 요약입니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "2024 §10.2.7 Data extraction; PDF page170 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M307-C09",
+          "field": "allowedConclusion",
+          "text": "검토 범위에서 개념과 근거 특성을 제시할 수 있습니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "2024 §§10.1.1 Why a scoping review?,10.2.8 Analysis of the evidence; PDF pages163,170-171 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M307-C10",
+          "field": "prohibitedConclusion",
+          "text": "지도화한 빈도를 통합 효과크기나 근거 확실성으로 바꾸지 않습니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "2024 chapter 10 §§10.1.1,10.2,10.2.2,10.2.4-10.2.9; PDF pages163,166-171 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M307-C11",
+          "field": "alternatives",
+          "text": "질문이 효과 추정이면 다른 고찰 유형과 별도 비교합니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "2024 §10.1.1 Why a scoping review?; PDF page163 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M307-C12",
+          "field": "visualization",
+          "text": "선정 흐름과 특성표에 검색일·검색원·포함 문헌·프로토콜 판본을 연결합니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "2024 chapter 10 §§10.1.1,10.2,10.2.2,10.2.4-10.2.9; PDF pages163,166-171 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M307-C13",
+          "field": "missingAndCounterevidence",
+          "text": "프로토콜에서 벗어난 변경과 제외 이유를 기록합니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "2024 §§10.2 Development of a scoping review protocol,10.2.6 Source of evidence selection; PDF pages166,169 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M307-C14",
+          "field": "validationCases.normal",
+          "text": "질문·포함 기준·추출 항목이 일치하는지 검토할 계획입니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "2024 chapter 10 §§10.1.1,10.2,10.2.2,10.2.4-10.2.9; PDF pages163,166-171 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M307-C15",
+          "field": "validationCases.risk",
+          "text": "검색 누락을 근거 부재로 단정하는 경우를 검토해야 합니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "2024 chapter 10 §§10.1.1,10.2,10.2.2,10.2.4-10.2.9; PDF pages163,166-171 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M307-C16",
+          "field": "validationCases.boundary",
+          "text": "포함 자료가 없는 고찰의 범위와 결론을 검토해야 합니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "2024 chapter 10 §§10.1.1,10.2,10.2.2,10.2.4-10.2.9; PDF pages163,166-171 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M307-C17",
+          "field": "reviewGaps",
+          "text": "직접 읽은 매뉴얼은 2024판이며 이후 온라인 개정 내용과 대조하지 않았습니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "2024 chapter 10 §§10.1.1,10.2,10.2.2,10.2.4-10.2.9; PDF pages163,166-171 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M307-C18",
+          "field": "procedure",
+          "text": "JBI 2024판은 제목·초록과 전문 선정 모두 두 명 이상이 독립적으로 수행하고 불일치는 합의 또는 제3 검토자로 해결하도록 안내합니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "§10.2.6 PDF169 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M307-C19",
+          "field": "procedure",
+          "text": "프로토콜 단계에서 추출 양식을 시험하고, 추출 중 추가한 항목과 양식 변경을 기록합니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "§10.2.7 PDF170 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M307-C20",
+          "field": "dataRequirements",
+          "text": "선정한 출처의 저자·연도·목적·대상·방법과 질문에 관련된 결과를 추적할 수 있어야 합니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "§10.2.7 PDF170 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M307-C21",
+          "field": "uncertainty",
+          "text": "검색어와 검색원이 추가될 수 있으므로 검색의 전체 변경 과정과 결과를 감사 가능하게 남깁니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "§10.2.5 PDF169 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M307-C22",
+          "field": "prohibitedConclusion",
+          "text": "JBI 2024판의 기술적 근거 지도화 범위를 해석적 질적 합성이나 통합 효과 검증으로 확대하지 않습니다.",
+          "sourceId": "S-JBI",
+          "sourceURL": "https://jbi-global-wiki.refined.site/download/attachments/355599504/JBI%20Manual%20for%20Evidence%20Synthesis%202024.pdf",
+          "location": "§10.2.8 PDF170–171 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        }
+      ],
+      "sourceIds": [
+        "S-JBI"
+      ],
+      "reviewGaps": [
+        "직접 읽은 매뉴얼은 2024판이며 이후 온라인 개정 내용과 대조하지 않았습니다."
+      ],
+      "question": [
+        "연구영역의 개념·자료·근거 범위를 지도화합니다."
+      ],
+      "premises": [
+        "질문과 포함 기준을 사전 프로토콜에 정합니다."
+      ],
+      "applicability": [
+        "Population·Concept·Context로 범위를 구체화할 수 있습니다."
+      ],
+      "exclusions": [
+        "근거 지도화만으로 효과의 확실성을 평가했다고 주장하지 않습니다."
+      ],
+      "dataRequirements": [
+        "검색원·검색식·포함 기준·선정 기록·추출 자료가 필요합니다.",
+        "선정한 출처의 저자·연도·목적·대상·방법과 질문에 관련된 결과를 추적할 수 있어야 합니다."
+      ],
+      "procedure": [
+        "사람이 선정과 불일치를 검토하고 사전 추출 양식을 시험합니다.",
+        "JBI 2024판은 제목·초록과 전문 선정 모두 두 명 이상이 독립적으로 수행하고 불일치는 합의 또는 제3 검토자로 해결하도록 안내합니다.",
+        "프로토콜 단계에서 추출 양식을 시험하고, 추출 중 추가한 항목과 양식 변경을 기록합니다."
+      ],
+      "uncertainty": [
+        "시간·자원 제약과 검색 범위를 명시합니다.",
+        "검색어와 검색원이 추가될 수 있으므로 검색의 전체 변경 과정과 결과를 감사 가능하게 남깁니다."
+      ],
+      "resultUnit": [
+        "결과는 질문에 맞춘 근거 특성의 기술적 요약입니다."
+      ],
+      "allowedConclusion": [
+        "검토 범위에서 개념과 근거 특성을 제시할 수 있습니다."
+      ],
+      "prohibitedConclusion": [
+        "지도화한 빈도를 통합 효과크기나 근거 확실성으로 바꾸지 않습니다.",
+        "JBI 2024판의 기술적 근거 지도화 범위를 해석적 질적 합성이나 통합 효과 검증으로 확대하지 않습니다."
+      ],
+      "alternatives": [
+        "질문이 효과 추정이면 다른 고찰 유형과 별도 비교합니다."
+      ],
+      "visualization": [
+        "선정 흐름과 특성표에 검색일·검색원·포함 문헌·프로토콜 판본을 연결합니다."
+      ],
+      "missingAndCounterevidence": [
+        "프로토콜에서 벗어난 변경과 제외 이유를 기록합니다."
+      ],
+      "maintainer": "research-workbench maintainers; expert owner unassigned"
+    },
+    {
+      "methodId": "M393",
+      "cardVersion": "0.3.0",
+      "reviewStatus": "partial",
+      "source_reviewer_checked": true,
+      "expertValidated": false,
+      "recommendationStatus": "unverified",
+      "executionValidation": "not_run",
+      "executionReviewScope": "이 카드 검토는 엔진 계산 검사와 독립적입니다.",
+      "reviewer": "Codex source document reviewer; subject-matter expert review pending",
+      "reviewedAt": "2026-10-18",
+      "expertValidation": "not_run",
+      "recommendationValidation": "not_run",
+      "validationCases": {
+        "normal": [
+          "가설별로 같은 증거의 진단성이 달라지는지 검토할 계획입니다."
+        ],
+        "risk": [
+          "선택한 가설을 지지하는 증거만 남기는 경우를 검토해야 합니다."
+        ],
+        "boundary": [
+          "관측되지 않은 증거가 반증인지 접근 불가인지 검토해야 합니다."
+        ],
+        "status": "not_run"
+      },
+      "claimSources": [
+        {
+          "claimId": "M393-C01",
+          "field": "question",
+          "text": "사례 내부의 진단적 증거로 과정과 인과 주장을 검토합니다.",
+          "sourceId": "S-TRACE",
+          "sourceURL": "https://escholarship.org/content/qt4fh4z41c/qt4fh4z41c.pdf",
+          "location": "printed p.823, opening definition; PDF page3 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M393-C02",
+          "field": "premises",
+          "text": "증거의 진단성은 연구질문·가설·사전 지식에 의존합니다.",
+          "sourceId": "S-TRACE",
+          "sourceURL": "https://escholarship.org/content/qt4fh4z41c/qt4fh4z41c.pdf",
+          "location": "printed p.824, Process Tracing, Prior Knowledge, and Diagnostic Evidence; PDF page4 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M393-C03",
+          "field": "applicability",
+          "text": "사건 순서와 기제를 세밀하게 검토할 때 사용합니다.",
+          "sourceId": "S-TRACE",
+          "sourceURL": "https://escholarship.org/content/qt4fh4z41c/qt4fh4z41c.pdf",
+          "location": "printed pp.823-824, Sequence and causal-mechanism objectives; PDF pages3-4 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M393-C04",
+          "field": "exclusions",
+          "text": "시간순 나열만으로 기제를 입증했다고 판정하지 않습니다.",
+          "sourceId": "S-TRACE",
+          "sourceURL": "https://escholarship.org/content/qt4fh4z41c/qt4fh4z41c.pdf",
+          "location": "printed pp.823-827; author addendum PDF page2 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M393-C05",
+          "field": "dataRequirements",
+          "text": "사건별 기술·시점·출처와 경쟁 가설이 필요합니다.",
+          "sourceId": "S-TRACE",
+          "sourceURL": "https://escholarship.org/content/qt4fh4z41c/qt4fh4z41c.pdf",
+          "location": "printed pp.823-827; author addendum PDF page2 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M393-C06",
+          "field": "procedure",
+          "text": "인간 연구자가 가설별 증거의 진단성을 따져 검토합니다.",
+          "sourceId": "S-TRACE",
+          "sourceURL": "https://escholarship.org/content/qt4fh4z41c/qt4fh4z41c.pdf",
+          "location": "printed p.824, Process Tracing, Prior Knowledge, and Diagnostic Evidence; PDF page4 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M393-C07",
+          "field": "uncertainty",
+          "text": "필요·충분의 이분법은 엄격한 확정 규칙으로 취급하지 않습니다.",
+          "sourceId": "S-TRACE",
+          "sourceURL": "https://escholarship.org/content/qt4fh4z41c/qt4fh4z41c.pdf",
+          "location": "author addendum, necessity/sufficiency heuristic and later developments; PDF page2 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M393-C08",
+          "field": "resultUnit",
+          "text": "결과는 사례와 가설에 연결한 증거 평가입니다.",
+          "sourceId": "S-TRACE",
+          "sourceURL": "https://escholarship.org/content/qt4fh4z41c/qt4fh4z41c.pdf",
+          "location": "printed pp.823-827; author addendum PDF page2 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M393-C09",
+          "field": "allowedConclusion",
+          "text": "명시한 가정 아래 사례의 설명 가설을 지지하거나 약화할 수 있습니다.",
+          "sourceId": "S-TRACE",
+          "sourceURL": "https://escholarship.org/content/qt4fh4z41c/qt4fh4z41c.pdf",
+          "location": "printed pp.825-827, tests and competing hypotheses; PDF pages5-7 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M393-C10",
+          "field": "prohibitedConclusion",
+          "text": "증거 개수를 세어 인과 확률이나 확실성을 자동 확정하지 않습니다.",
+          "sourceId": "S-TRACE",
+          "sourceURL": "https://escholarship.org/content/qt4fh4z41c/qt4fh4z41c.pdf",
+          "location": "printed pp.823-827; author addendum PDF page2 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M393-C11",
+          "field": "alternatives",
+          "text": "저자 부기에서 소개한 후속 접근은 추가 원문 검토가 필요합니다.",
+          "sourceId": "S-TRACE",
+          "sourceURL": "https://escholarship.org/content/qt4fh4z41c/qt4fh4z41c.pdf",
+          "location": "author addendum, later methodological developments; PDF page2 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M393-C12",
+          "field": "visualization",
+          "text": "시간선과 가설별 증거표에 출처·반증·가정을 연결합니다.",
+          "sourceId": "S-TRACE",
+          "sourceURL": "https://escholarship.org/content/qt4fh4z41c/qt4fh4z41c.pdf",
+          "location": "printed pp.823-827; author addendum PDF page2 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M393-C13",
+          "field": "missingAndCounterevidence",
+          "text": "경쟁 가설에 유리한 증거와 미관측 증거를 구분합니다.",
+          "sourceId": "S-TRACE",
+          "sourceURL": "https://escholarship.org/content/qt4fh4z41c/qt4fh4z41c.pdf",
+          "location": "printed pp.823-827; author addendum PDF page2 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M393-C14",
+          "field": "validationCases.normal",
+          "text": "가설별로 같은 증거의 진단성이 달라지는지 검토할 계획입니다.",
+          "sourceId": "S-TRACE",
+          "sourceURL": "https://escholarship.org/content/qt4fh4z41c/qt4fh4z41c.pdf",
+          "location": "printed pp.823-827; author addendum PDF page2 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M393-C15",
+          "field": "validationCases.risk",
+          "text": "선택한 가설을 지지하는 증거만 남기는 경우를 검토해야 합니다.",
+          "sourceId": "S-TRACE",
+          "sourceURL": "https://escholarship.org/content/qt4fh4z41c/qt4fh4z41c.pdf",
+          "location": "printed pp.823-827; author addendum PDF page2 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M393-C16",
+          "field": "validationCases.boundary",
+          "text": "관측되지 않은 증거가 반증인지 접근 불가인지 검토해야 합니다.",
+          "sourceId": "S-TRACE",
+          "sourceURL": "https://escholarship.org/content/qt4fh4z41c/qt4fh4z41c.pdf",
+          "location": "printed pp.823-827; author addendum PDF page2 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M393-C17",
+          "field": "reviewGaps",
+          "text": "저자 부기는 2011년 틀의 후속 발전을 명시하며 해당 후속 원문들은 읽지 않았습니다.",
+          "sourceId": "S-TRACE",
+          "sourceURL": "https://escholarship.org/content/qt4fh4z41c/qt4fh4z41c.pdf",
+          "location": "author addendum, initial framing and later developments; PDF page2 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M393-C18",
+          "field": "procedure",
+          "text": "각 시점의 핵심 사건을 먼저 세밀하게 기술한 뒤 변화의 순서와 설명 가설을 검토합니다.",
+          "sourceId": "S-TRACE-BERKELEY",
+          "sourceURL": "https://polisci.berkeley.edu/sites/default/files/people/u3827/Understanding%20Process%20Tracing.pdf",
+          "location": "printed pp.823–824; PDF1–2 Description; Descriptive Inference",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M393-C19",
+          "field": "procedure",
+          "text": "가설을 구체화하고 증거가 해당 가설과 경쟁 가설에 주는 함의를 함께 검토합니다.",
+          "sourceId": "S-TRACE-BERKELEY",
+          "sourceURL": "https://polisci.berkeley.edu/sites/default/files/people/u3827/Understanding%20Process%20Tracing.pdf",
+          "location": "printed p.825; PDF3 Causal Inference; Specification of Hypotheses; Table1",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M393-C20",
+          "field": "uncertainty",
+          "text": "같은 증거도 사전 지식·가정·가설의 표현에 따라 다른 시험으로 해석될 수 있습니다.",
+          "sourceId": "S-TRACE-BERKELEY",
+          "sourceURL": "https://polisci.berkeley.edu/sites/default/files/people/u3827/Understanding%20Process%20Tracing.pdf",
+          "location": "printed pp.825–826; PDF3–4 Distinctions among Tests; Assumptions and Interpretations",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M393-C21",
+          "field": "exclusions",
+          "text": "네 가지 시험은 해석을 돕는 휴리스틱이므로 엄격한 자동 분류 규칙으로 강제하지 않습니다.",
+          "sourceId": "S-TRACE-BERKELEY",
+          "sourceURL": "https://polisci.berkeley.edu/sites/default/files/people/u3827/Understanding%20Process%20Tracing.pdf",
+          "location": "printed p.825; PDF3 Distinctions among Tests",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 적용 범위를 참고한 제품 안내 해석이며 원문이 이 제품 규칙이나 연구 타당성을 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M393-C22",
+          "field": "reviewGaps",
+          "text": "대학의 저자 원문에서 절차를 재대조했으나 부기가 가리킨 후속 접근과 베이즈식 평가 원문은 추가 검토가 필요합니다.",
+          "sourceId": "S-TRACE-BERKELEY",
+          "sourceURL": "https://polisci.berkeley.edu/sites/default/files/people/u3827/Understanding%20Process%20Tracing.pdf",
+          "location": "printed pp.823–827 reviewed; product scope",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 적용 범위를 참고한 제품 안내 해석이며 원문이 이 제품 규칙이나 연구 타당성을 검증하지 않았습니다."
+        }
+      ],
+      "sourceIds": [
+        "S-TRACE",
+        "S-TRACE-BERKELEY"
+      ],
+      "reviewGaps": [
+        "저자 부기는 2011년 틀의 후속 발전을 명시하며 해당 후속 원문들은 읽지 않았습니다.",
+        "대학의 저자 원문에서 절차를 재대조했으나 부기가 가리킨 후속 접근과 베이즈식 평가 원문은 추가 검토가 필요합니다."
+      ],
+      "question": [
+        "사례 내부의 진단적 증거로 과정과 인과 주장을 검토합니다."
+      ],
+      "premises": [
+        "증거의 진단성은 연구질문·가설·사전 지식에 의존합니다."
+      ],
+      "applicability": [
+        "사건 순서와 기제를 세밀하게 검토할 때 사용합니다."
+      ],
+      "exclusions": [
+        "시간순 나열만으로 기제를 입증했다고 판정하지 않습니다.",
+        "네 가지 시험은 해석을 돕는 휴리스틱이므로 엄격한 자동 분류 규칙으로 강제하지 않습니다."
+      ],
+      "dataRequirements": [
+        "사건별 기술·시점·출처와 경쟁 가설이 필요합니다."
+      ],
+      "procedure": [
+        "인간 연구자가 가설별 증거의 진단성을 따져 검토합니다.",
+        "각 시점의 핵심 사건을 먼저 세밀하게 기술한 뒤 변화의 순서와 설명 가설을 검토합니다.",
+        "가설을 구체화하고 증거가 해당 가설과 경쟁 가설에 주는 함의를 함께 검토합니다."
+      ],
+      "uncertainty": [
+        "필요·충분의 이분법은 엄격한 확정 규칙으로 취급하지 않습니다.",
+        "같은 증거도 사전 지식·가정·가설의 표현에 따라 다른 시험으로 해석될 수 있습니다."
+      ],
+      "resultUnit": [
+        "결과는 사례와 가설에 연결한 증거 평가입니다."
+      ],
+      "allowedConclusion": [
+        "명시한 가정 아래 사례의 설명 가설을 지지하거나 약화할 수 있습니다."
+      ],
+      "prohibitedConclusion": [
+        "증거 개수를 세어 인과 확률이나 확실성을 자동 확정하지 않습니다."
+      ],
+      "alternatives": [
+        "저자 부기에서 소개한 후속 접근은 추가 원문 검토가 필요합니다."
+      ],
+      "visualization": [
+        "시간선과 가설별 증거표에 출처·반증·가정을 연결합니다."
+      ],
+      "missingAndCounterevidence": [
+        "경쟁 가설에 유리한 증거와 미관측 증거를 구분합니다."
+      ],
+      "maintainer": "research-workbench maintainers; expert owner unassigned"
+    },
+    {
+      "methodId": "M006",
+      "cardVersion": "0.3.0",
+      "reviewStatus": "partial",
+      "source_reviewer_checked": true,
+      "expertValidated": false,
+      "recommendationStatus": "unverified",
+      "executionValidation": "not_run",
+      "executionReviewScope": "이 카드 검토는 엔진 계산 검사와 독립적입니다.",
+      "reviewer": "Codex source document reviewer; subject-matter expert review pending",
+      "reviewedAt": "2026-10-18",
+      "expertValidation": "not_run",
+      "recommendationValidation": "not_run",
+      "validationCases": {
+        "normal": [
+          "배정·추적·분석 분모가 이어지는 연구 기록을 검토할 계획입니다."
+        ],
+        "risk": [
+          "배정 순서 노출과 차등 탈락을 검토해야 합니다."
+        ],
+        "boundary": [
+          "실제 배정 단위가 집단인 연구의 카드 범위 이탈을 검토해야 합니다."
+        ],
+        "status": "not_run"
+      },
+      "claimSources": [
+        {
+          "claimId": "M006-C01",
+          "field": "question",
+          "text": "개인을 무작위 배정해 비교하는 설계를 검토합니다.",
+          "sourceId": "S-CONSORT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+          "location": "Item17a Explanation; Item17b examples of individual allocation",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M006-C02",
+          "field": "premises",
+          "text": "예측할 수 없는 배정 순서와 등록 시 배정 은폐가 중요합니다.",
+          "sourceId": "S-CONSORT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+          "location": "Item17a Explanation; Item18 Explanation",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M006-C03",
+          "field": "applicability",
+          "text": "개인 단위 배정을 실제로 수행할 수 있는 비교 연구에서 검토합니다.",
+          "sourceId": "S-CONSORT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+          "location": "Item17a Explanation; Item17b individual-level example",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M006-C04",
+          "field": "exclusions",
+          "text": "학교·기관 등 집단 배정 설계는 이 개인 배정 카드 범위에서 제외합니다.",
+          "sourceId": "S-CONSORT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+          "location": "Item17b individual-level example; product card scope interpretation",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M006-C05",
+          "field": "dataRequirements",
+          "text": "배정·추적·분석 포함 집단·결과 시점·결측 기록이 필요합니다.",
+          "sourceId": "S-CONSORT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+          "location": "Items21b,21c,22a,26",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M006-C06",
+          "field": "procedure",
+          "text": "순서 생성·배정 은폐·배정 실행의 담당과 절차를 기록합니다.",
+          "sourceId": "S-CONSORT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+          "location": "Item19 Explanation: sequence generation, concealment mechanism, implementation",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M006-C07",
+          "field": "procedure",
+          "text": "효과 계산과 인간의 설계·윤리 검토를 별도로 수행합니다.",
+          "sourceId": "S-CONSORT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+          "location": "CONSORT 2025 Explanation: items17a,18,19,21b-21d,22a,26",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M006-C08",
+          "field": "uncertainty",
+          "text": "결측과 배정 후 제외는 추론에 영향을 주므로 처리 가정과 민감도 분석을 검토합니다.",
+          "sourceId": "S-CONSORT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+          "location": "Items21b,21c Explanation; Item21d sensitivity analyses",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M006-C09",
+          "field": "resultUnit",
+          "text": "결과변수의 단위와 집단별 분석 분모를 함께 보고합니다.",
+          "sourceId": "S-CONSORT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+          "location": "Item26: outcome results, denominators and effect precision",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M006-C10",
+          "field": "allowedConclusion",
+          "text": "설계·실행·분석을 검토한 범위에서 비교 결과를 해석합니다.",
+          "sourceId": "S-CONSORT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+          "location": "CONSORT 2025 Explanation: items17a,18,19,21b-21d,22a,26",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M006-C11",
+          "field": "prohibitedConclusion",
+          "text": "무작위라는 명칭만으로 편향 부재나 일반화 가능성을 확정하지 않습니다.",
+          "sourceId": "S-CONSORT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+          "location": "CONSORT 2025 Explanation: items17a,18,19,21b-21d,22a,26",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M006-C12",
+          "field": "alternatives",
+          "text": "개인 배정이 불가능하면 다른 설계를 별도 근거로 비교합니다.",
+          "sourceId": "S-CONSORT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+          "location": "CONSORT 2025 Explanation: items17a,18,19,21b-21d,22a,26",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M006-C13",
+          "field": "visualization",
+          "text": "배정 흐름과 결과그림에 시점·단위·분모·효과 불확실성·판본을 연결합니다.",
+          "sourceId": "S-CONSORT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+          "location": "Item22a Explanation; Item26 Explanation",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M006-C14",
+          "field": "missingAndCounterevidence",
+          "text": "집단별 탈락 이유와 결측 처리 가정의 영향을 검토합니다.",
+          "sourceId": "S-CONSORT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+          "location": "Item21c Explanation; Item22b Explanation",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M006-C15",
+          "field": "validationCases.normal",
+          "text": "배정·추적·분석 분모가 이어지는 연구 기록을 검토할 계획입니다.",
+          "sourceId": "S-CONSORT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+          "location": "CONSORT 2025 Explanation: items17a,18,19,21b-21d,22a,26",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M006-C16",
+          "field": "validationCases.risk",
+          "text": "배정 순서 노출과 차등 탈락을 검토해야 합니다.",
+          "sourceId": "S-CONSORT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+          "location": "CONSORT 2025 Explanation: items17a,18,19,21b-21d,22a,26",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M006-C17",
+          "field": "validationCases.boundary",
+          "text": "실제 배정 단위가 집단인 연구의 카드 범위 이탈을 검토해야 합니다.",
+          "sourceId": "S-CONSORT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+          "location": "CONSORT 2025 Explanation: items17a,18,19,21b-21d,22a,26",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M006-C18",
+          "field": "reviewGaps",
+          "text": "임상 보고 지침과 사회정책 평가 매뉴얼을 대조했으나 분야별 설계 적합성·윤리 검토와 실행 타당화는 미실시입니다.",
+          "sourceId": "S-CONSORT",
+          "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995452/",
+          "location": "Discussion: reporting guideline purpose",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 범위와 제품의 보수적 안내 원칙을 연결한 해석이며 원문이 이 제품 규칙을 직접 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M006-C19",
+          "field": "premises",
+          "text": "모집단에서 표본을 뽑는 무작위 표집과 표본 안에서 처치를 배정하는 무작위 배정을 구분합니다.",
+          "sourceId": "S-WB-IEP2",
+          "sourceURL": "https://documents1.worldbank.org/curated/en/698441474029568469/pdf/Impact-evaluation-in-practice.pdf",
+          "location": "Chapter4 pp.73–74 Figure4.2; PDF103–104; Chapter15 pp.265–266 Box15.1 PDF295–296 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M006-C20",
+          "field": "procedure",
+          "text": "적격 단위와 평가 표본을 정한 뒤 배정 규칙을 사전에 정하고 실제 배정 과정의 기록을 남깁니다.",
+          "sourceId": "S-WB-IEP2",
+          "sourceURL": "https://documents1.worldbank.org/curated/en/698441474029568469/pdf/Impact-evaluation-in-practice.pdf",
+          "location": "Chapter4 pp.75–78 Steps in Randomized Assignment; PDF105–108 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M006-C21",
+          "field": "uncertainty",
+          "text": "처치가 비교집단의 결과에 영향을 주는 파급과 배정대로 참여하지 않는 비순응을 검토합니다.",
+          "sourceId": "S-WB-IEP2",
+          "sourceURL": "https://documents1.worldbank.org/curated/en/698441474029568469/pdf/Impact-evaluation-in-practice.pdf",
+          "location": "Chapter4 pp.79–80 Level of Assignment; PDF109–110 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        },
+        {
+          "claimId": "M006-C22",
+          "field": "applicability",
+          "text": "운영 방식과 파급 위험 때문에 집단 배정이 필요하면 개인 배정 카드 밖의 설계를 별도로 비교합니다.",
+          "sourceId": "S-WB-IEP2",
+          "sourceURL": "https://documents1.worldbank.org/curated/en/698441474029568469/pdf/Impact-evaluation-in-practice.pdf",
+          "location": "Chapter4 pp.79–80 Level of Assignment; PDF109–110 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "interpretation",
+          "interpretationNote": "원문의 적용 범위를 참고한 제품 안내 해석이며 원문이 이 제품 규칙이나 연구 타당성을 검증하지 않았습니다."
+        },
+        {
+          "claimId": "M006-C23",
+          "field": "prohibitedConclusion",
+          "text": "비확률 표본에 무작위 배정을 했다는 이유만으로 전체 모집단 일반화를 확정하지 않습니다.",
+          "sourceId": "S-WB-IEP2",
+          "sourceURL": "https://documents1.worldbank.org/curated/en/698441474029568469/pdf/Impact-evaluation-in-practice.pdf",
+          "location": "Chapter4 pp.73–74 Internal and External Validity; PDF103–104 (one-based)",
+          "accessLevel": "full_text",
+          "supportType": "direct_support"
+        }
+      ],
+      "sourceIds": [
+        "S-CONSORT",
+        "S-WB-IEP2"
+      ],
+      "reviewGaps": [
+        "임상 보고 지침과 사회정책 평가 매뉴얼을 대조했으나 분야별 설계 적합성·윤리 검토와 실행 타당화는 미실시입니다."
+      ],
+      "question": [
+        "개인을 무작위 배정해 비교하는 설계를 검토합니다."
+      ],
+      "premises": [
+        "예측할 수 없는 배정 순서와 등록 시 배정 은폐가 중요합니다.",
+        "모집단에서 표본을 뽑는 무작위 표집과 표본 안에서 처치를 배정하는 무작위 배정을 구분합니다."
+      ],
+      "applicability": [
+        "개인 단위 배정을 실제로 수행할 수 있는 비교 연구에서 검토합니다.",
+        "운영 방식과 파급 위험 때문에 집단 배정이 필요하면 개인 배정 카드 밖의 설계를 별도로 비교합니다."
+      ],
+      "exclusions": [
+        "학교·기관 등 집단 배정 설계는 이 개인 배정 카드 범위에서 제외합니다."
+      ],
+      "dataRequirements": [
+        "배정·추적·분석 포함 집단·결과 시점·결측 기록이 필요합니다."
+      ],
+      "procedure": [
+        "순서 생성·배정 은폐·배정 실행의 담당과 절차를 기록합니다.",
+        "효과 계산과 인간의 설계·윤리 검토를 별도로 수행합니다.",
+        "적격 단위와 평가 표본을 정한 뒤 배정 규칙을 사전에 정하고 실제 배정 과정의 기록을 남깁니다."
+      ],
+      "uncertainty": [
+        "결측과 배정 후 제외는 추론에 영향을 주므로 처리 가정과 민감도 분석을 검토합니다.",
+        "처치가 비교집단의 결과에 영향을 주는 파급과 배정대로 참여하지 않는 비순응을 검토합니다."
+      ],
+      "resultUnit": [
+        "결과변수의 단위와 집단별 분석 분모를 함께 보고합니다."
+      ],
+      "allowedConclusion": [
+        "설계·실행·분석을 검토한 범위에서 비교 결과를 해석합니다."
+      ],
+      "prohibitedConclusion": [
+        "무작위라는 명칭만으로 편향 부재나 일반화 가능성을 확정하지 않습니다.",
+        "비확률 표본에 무작위 배정을 했다는 이유만으로 전체 모집단 일반화를 확정하지 않습니다."
+      ],
+      "alternatives": [
+        "개인 배정이 불가능하면 다른 설계를 별도 근거로 비교합니다."
+      ],
+      "visualization": [
+        "배정 흐름과 결과그림에 시점·단위·분모·효과 불확실성·판본을 연결합니다."
+      ],
+      "missingAndCounterevidence": [
+        "집단별 탈락 이유와 결측 처리 가정의 영향을 검토합니다."
+      ],
+      "maintainer": "research-workbench maintainers; expert owner unassigned"
+    }
+  ]
+}
